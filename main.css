@@ -5,15 +5,21 @@ header {
     color: #fff;
 }
 
-.header {
-    width: 100%;
-    padding: 10%;
+table {
     border-color: none;
 }
 
-table {
-    padding: 10%;
-    border-color: none;
+.header {
+    width: 100%;
+}
+
+.info-table {
+    width: 100% !important;
+    text-align: center;
+    border: solid;
+    border-color: white;
+    border-width: 2px;
+    border: 10%;
 }
 
 body {
