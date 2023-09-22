@@ -5,6 +5,16 @@ header {
     color: #fff;
 }
 
+.header {
+    padding: 10%;
+    border-color: none;
+}
+
+table {
+    padding: 10%;
+    border-color: none;
+}
+
 body {
     width: 100%;
     background-color: #000;
