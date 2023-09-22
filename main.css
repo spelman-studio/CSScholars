@@ -12,10 +12,12 @@ body {
 
 h2 {
     color: #94BEFE;
+    text-align: center;
 }
 
 h1 {
     color: #fff;
+    text-align: center;
 }
 
 p {
@@ -33,6 +35,7 @@ h3 {
 }
 
 footer {
+    padding: 10%;
     width: 100%;
     background-color: #000;
     color: #fff;
