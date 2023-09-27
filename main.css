@@ -14,10 +14,9 @@ table {
 }
 
 .info-table {
-    width: 100% !important;
+    width: inherit;
     text-align: center;
     border: solid;
-    border-color: white;
     border-width: 2px;
     border: 10%;
 }
@@ -43,16 +42,6 @@ p {
 
 .description {
     text-align: center;
-}
-
-.info-table {
-    margin: 20%;
-    align-content: center;
-}
-
-.topics {
-    text-align: center;
-    margin: 10%;
 }
 
 h3 {
