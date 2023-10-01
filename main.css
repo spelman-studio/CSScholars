@@ -4,7 +4,7 @@
   }
 
 header {
-    margin: auto;
+    width: 100%;
     text-align: center;
     background-color: #000;
     color: #fff;
@@ -15,25 +15,34 @@ header {
 }
 
 table {
-    text-align: center;
-    width: 90%;
-    margin: 5%;
-    border-color: none;
+    width: 100%;
+    text-indent: 0%;
 }
 
 body {
+    text-align: center;
+    align-self: center;
+    width: 90%;
+    margin: 5%;
     background-color: #000;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    text-indent: 0%;
 }
 
 h2 {
     color: #94BEFE;
     text-align: center;
+    font-size: x-large;
 }
 
 h1 {
     color: #fff;
     text-align: center;
+    font-size: xx-large;
 }
 
 p {
@@ -44,12 +53,27 @@ p {
     text-align: center;
 }
 
-#topics {
+h3 {
+    color: #fff;
+    text-align: center;
+    font-size: large;
+}
+
+.topics {
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+#left {
+    text-align: left;
+}
+
+#center {
     text-align: center;
 }
 
-h3 {
-    color: #fff;
+#right {
+    text-align: right;
 }
 
 .headshot {
@@ -66,10 +90,14 @@ h3 {
     margin-bottom: 100px;
 }
 
+hr {
+    width: 60%;
+    border-top: 4px solid #94BEFE;
+}
+
 footer {
-    align-content: center;
-    margin: auto;
-    width: 100%;
+    margin-left: 20%;
+    margin-right: 20%;
     background-color: #000;
     color: #fff;
 }

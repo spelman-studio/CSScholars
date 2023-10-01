@@ -7,6 +7,7 @@
     <meta name="author" content="Alex Abreu, Sean Alexander, Sam Bryant, Jordyn Pryor, Jane Spelman, Garland Weaver">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href=""
     <title>CSScholars - Home</title>
   </head>
 
@@ -24,31 +25,30 @@
       </table>
     </header>
 
-
     <!--Cover Image-->
     <img src="" alt="" class="cover-img">
+
     <!--Description-->
     <h1>What is Generative AI?</h1>
     <p class="description">Description</p>
+
     <!--Topics-->
     <h2>Topics of Interest</h2>
-    <table id="topics">
-      <tr>
-        <td><h3>Academics</h3></td>
-        <td><h3>Art</h3></td>
-        <td><h3>Cybersecurity</h3></td>
-      </tr>
-      <tr>
-        <td><h3>Finances</h3></td>
-        <td><h3>Games</h3></td>
-        <td><h3>Technology</h3></td>
-      </tr>
-      <tr>
-        <td><h3>Environment</h3></td>
-        <td><h3>Personal Life</h3></td>
-        <td><h3>Work</h3></td>
-      </tr>
-    </table>
+    <div class="topics">
+      <!--Left Topics-->
+      <h3 id="right">Academics</h3>
+      <h3 id="right">Art</h3>
+      <h3 id="right">Cybersecurity</h3>
+      <!--Center Topics-->
+      <h3 id="center">Environment</h3>
+      <h3 id="center">Personal Life</h3>
+      <h3 id="center">Games</h3>
+      <!--Right Topics-->
+      <h3 id="left">Finances</h3>
+      <h3 id="left">Technology</h3>
+      <h3 id="left">Work</h3>
+    </div>
+
     <!--Team-->
     <div class="team">
     <h2>Meet the Team</h2>
@@ -66,6 +66,7 @@
     </table>
   </div>
     <br>
+
     <!--Contact-->
     <div class="contact">
     <h2>Contact Information</h2>
@@ -82,6 +83,7 @@
         <td><p>(123) 456-7890</p></td>
       </tr>
     </table>
+
     <!--Social Media-->
     <table>
       <!--Instagram-->
@@ -98,24 +100,28 @@
       </tr>
     </table>
   </div>
+
     <!--Footer-->
+    <hr>
     <footer>
       <div class="footer">
-      <table>
-        <tr>
-          <td><a href="index.html" target="_blank"><h3>Home</h3></a></td>
-          <td><a href="faq.html" target="_blank"><h3>FAQ</h3></a></td>
-          <td><a href="info.html" target="_blank"><h3>Information</h3></a></td>
-        </tr>
-        <tr>
-          <td><a href="about.html" target="_blank"><h3>About Us</h3></a></td>
-          <td><a href="contact.html" target="_blank"><h3>Contact Us</h3></a></td>
-          <td><a href="" target="_blank"><h3>Sources</h3></a></td>
-        </tr>
-      </table>
-      <p>Copyright &copy; 2023 CSScholars - All Rights Reserved</p>
+        <table>
+          <tr>
+            <td><a href="index.html" target="_blank"><h3 id="left">Home</h3></a></td>
+            <td><a href="faq.html" target="_blank"><h3 id="right">FAQ</h3></a></td>
+          </tr>
+          <tr>
+            <td><a href="info.html" target="_blank"><h3 id="left">Information</h3></a></td>
+            <td><a href="contact.html" target="_blank"><h3 id="right">Contact Us</h3></a></td>
+          </tr>
+          <tr>
+            <td><a href="about.html" target="_blank"><h3 id="left">About Us</h3></a></td>
+            <td><a href="" target="_blank"><h3 id="right">Sources</h3></a></td>
+          </tr>
+        </table>
+        <br>
+        <p>Copyright &copy; 2023 CSScholars - All Rights Reserved</p>
       </div>
     </footer>
   </body>
-
 </html>
