@@ -134,8 +134,12 @@ h3 {
 }
 
 hr {
-    width: 60%;
+    width: 100%;
     border-top: 4px solid #94BEFE;
+}
+
+#footer {
+    width: 60%;
 }
 
 footer {
