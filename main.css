@@ -1,201 +1,83 @@
 @font-face {
-    font-family: "TechnaSans";
-    src: url(https://github.com/carlstype/techna-sans.git) format("truetype");
-  }
-
-/*header {
-    width: 100%;
-    text-align: center;
-    background-color: #000;
-    color: #fff;
+	font-family: "TechnaSans";
+	src: url(https://github.com/carlstype/techna-sans.git) format("truetype");
 }
-
-.cover-img {
-    width: 100%;
-    align-content: center;
+nav {
+	margin: 0px 10px 0px 10px;
 }
-
-table {
-    width: 100%;
-    text-indent: 0%;
-    border-collapse: collapse;
+.card {
+	height: 50%;
+	width: auto;
 }
-
-.icons {
-    width: 60% !important;
-    margin-left: 20%;
-    margin-right: 20%;
-}
-
-body {
-    text-align: center;
-    align-self: center;
-    width: 90%;
-    margin: 5%;
-    background-color: #000;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-a {
-    text-decoration: none !important;
-}
-
-a:hover {
-    opacity: 0.5;
-}
-
-ul {
-    list-style-type: none;
-    text-indent: 0%;
-}
-
-h2 {
-    color: #94BEFE;
-    text-align: center;
-    font-size: 200%;
-}
-
-h1 {
-    color: #fff;
-    text-align: center;
-    font-size: 300%;
-}
-
-p {
-    color: lightgray;
-    font-size: 150%
-}
-
-.description {
-    text-align: center;
-}
-
-h3 {
-    color: #fff;
-    text-align: center;
-    font-size: 150%;
-}
-
-.topics {
-    margin-left: 40%;
-    margin-right: 40%;
-}
-
-#left {
-    text-align: left;
-}
-
-#center {
-    text-align: center;
-}
-
-#right {
-    text-align: right;
-}
-*/
-
 /*Image Gallery*/
+
 div.gallery {
-    border: none;
-    margin: auto;
-    width: 90%;
+	border: none;
+	margin: auto;
+	width: 90%;
 }
-
 div.headshot:hover {
-    opacity: 0.5;
-    border: lightgray;
+	opacity: 0.5;
+	border: lightgray;
 }
-  
 div.gallery img {
-    width: 20%;
-    height: auto;
-    border: 2px solid white;
+	width: 20%;
+	height: auto;
+	border: 2px solid white;
 }
-  
 div.desc {
-    padding: 15px;
-    text-align: center;
-    color: #fff;
-    font-size: 150%;
+	padding: 15px;
+	text-align: center;
+	color: #fff;
+	font-size: 150%;
 }
-  
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
-  
 .responsive {
-    padding: 0 6px;
-    float: center;
+	padding: 0 6px;
+	float: center;
 }
-  
 @media only screen and (max-width: 700px) {
-    .responsive {
-      width: 49.99999%;
-      margin: 6px 0;
-    }
+	.responsive {
+		width: 49.99999%;
+		margin: 6px 0;
+	}
 }
-  
 @media only screen and (max-width: 500px) {
-    .responsive {
-      width: 100%;
-    }
+	.responsive {
+		width: 100%;
+	}
 }
-  
 .clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
+	content: "";
+	display: table;
+	clear: both;
 }
-
 .contact {
-    text-align: center;
+	text-align: center;
 }
-
 /*Social Media Icons*/
+
 .fa:hover {
-    opacity: 0.5;
+	opacity: 0.5;
 }
-
 .fa-linkedin {
-    background: transparent;
-    color: white;
+	background: transparent;
+	color: white;
 }
-
 .fa-instagram {
-    background: transparent;
-    color: white;
+	background: transparent;
+	color: white;
 }
-
 .fa-facebook {
-    background: transparent;
-    color: white;
+	background: transparent;
+	color: white;
 }
-
 .fa {
-    font-size: 150% !important;
-    padding: 20px;
-    width: 60px;
-    text-decoration: none;
-    margin: 5px 80px;
+	font-size: 150% !important;
+	padding: 20px;
+	width: 60px;
+	text-decoration: none;
+	margin: 5px 80px;
 }
-
-/*.faq-page {
-    margin-bottom: 100px;
-}
-
-hr {
-    width: 100%;
-    border-top: 4px solid #94BEFE;
-}
-
-#footer {
-    width: 60%;
-}
-
-footer {
-    margin-left: 20%;
-    margin-right: 20%;
-    background-color: #000;
-    color: #fff;
-}
-*/
