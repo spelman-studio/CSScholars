@@ -9,47 +9,62 @@
   <link rel="stylesheet" href="main.css">
   <link rel="stylesheet" href="/materialize/css/materialize.css">
   <link rel="stylesheet" href="/materialize/css/materialize.min.css">
+  <link rel="stylesheet" href="/materialize/js/materialize.js">
+  <link rel="stylesheet" href="/materialize/js/materialize.min.js">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>CSScholars - Information</title>
 </head>
 
-  <body>
-     <!--Header-->
-    <header>
-      <table class="header">
-        <tr>
-          <td><a href="index.html" :hover><h2>Home</h2></a></td>
-          <td><a href="info.html" :hover><h2>Information</h2></a></td>
-          <td><a href="about.html" target="_blank" :hover><h2>About Us</h2></a></td>
-          <td><a href="faq.html" target="_blank" :hover><h2>FAQ</h2></a></td>
-          <td><a href="contact.html" target="_blank" :hover><h2>Contact Us</h2></a></td>
-        </tr>
-      </table>
-    </header>
-    <hr>
+<body class="black">
+  <!--Header-->
+  <header>
+  <nav class="black">
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo">CSScholars</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li class="blue-text text-lighten-3"><a href="index.html">Home</a></li>
+        <li><a href="info.html" target="_blank" :hover>Information</a></li>
+        <li><a href="about.html" target="_blank" :hover>About Us</a></li>
+        <li><a href="faq.html" target="_blank" :hover>FAQ</a></li>
+        <li><a href="contact.html" target="_blank" :hover>Contact Us</a></li>
+      </ul>
+    </div>
+  </nav>
+  </header>
 
     <!--Footer-->
-    <hr>
-    <footer>
-      <div class="footer">
-        <table>
-          <tr>
-            <td><a href="index.html" target="_blank" :hover><h3 id="left">Home</h3></a></td>
-            <td><a href="faq.html" target="_blank" :hover><h3 id="right">FAQ</h3></a></td>
-          </tr>
-          <tr>
-            <td><a href="info.html" :hover><h3 id="left">Information</h3></a></td>
-            <td><a href="contact.html" target="_blank" :hover><h3 id="right">Contact Us</h3></a></td>
-          </tr>
-          <tr>
-            <td><a href="about.html" target="_blank" :hover><h3 id="left">About Us</h3></a></td>
-            <td><a href="" target="_blank" :hover><h3 id="right">Sources</h3></a></td>
-          </tr>
-        </table>
-        <br>
+    <footer class="page-footer black">
+      <div class="row">
+        <div class="col l6 s12">
+          <h2 class="blue-text text-lighten-3">CSScholars</h2>
+          <p class="white-text">Lorem ipsum</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <ul>
+            <li><a href="index.html" target="_blank" :hover><p>Home</p></a></li>
+            <li><a href="faq.html" target="_blank" :hover><p>FAQ</p></a></li>
+            <li><a href="info.html" target="_blank" :hover><p>Information</p></a></li>
+            <li><a href="contact.html" target="_blank" :hover><p>Contact Us</p></a></li>
+            <li><a href="about.html" :hover><p>About Us</p></a></li>
+            <li><a href="" target="_blank" :hover><p>Sources</p></a></li>
+          </ul>
+        </div>
+      </div>
+      <!--Social Media-->
+  <table class="icons">
+    <tr>
+      <td><a href="https://www.instagram.com/" class="fa fa-instagram" :hover></a></td>
+      <td><a href="https://www.facebook.com/" class="fa fa-facebook" :hover></a></td>
+      <td><a href="https://www.linkedin.com/feed/" class="fa fa-linkedin" :hover></a></td>
+    </tr>
+  </table>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
         <p>Copyright &copy; 2023 CSScholars - All Rights Reserved</p>
       </div>
-    </footer>
+    </div>
+  </footer>
   </body>
 
 </html>

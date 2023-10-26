@@ -3,7 +3,7 @@
     src: url(https://github.com/carlstype/techna-sans.git) format("truetype");
   }
 
-header {
+/*header {
     width: 100%;
     text-align: center;
     background-color: #000;
@@ -12,6 +12,7 @@ header {
 
 .cover-img {
     width: 100%;
+    align-content: center;
 }
 
 table {
@@ -91,6 +92,7 @@ h3 {
 #right {
     text-align: right;
 }
+*/
 
 /*Image Gallery*/
 div.gallery {
@@ -177,7 +179,7 @@ div.desc {
     margin: 5px 80px;
 }
 
-.faq-page {
+/*.faq-page {
     margin-bottom: 100px;
 }
 
@@ -196,3 +198,4 @@ footer {
     background-color: #000;
     color: #fff;
 }
+*/

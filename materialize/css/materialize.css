@@ -2747,7 +2747,7 @@ video.responsive-video {
 }
 
 .pagination li.active {
-  background-color: #ee6e73;
+  background-color: #000;
 }
 
 .pagination li.disabled a {
@@ -2946,7 +2946,7 @@ ul.staggered-list li {
 .page-footer {
   padding-top: 20px;
   color: #fff;
-  background-color: #ee6e73;
+  background-color: #000;
 }
 
 .page-footer .footer-copyright {
@@ -2966,7 +2966,7 @@ ul.staggered-list li {
           justify-content: space-between;
   padding: 10px 0px;
   color: rgba(255, 255, 255, 0.8);
-  background-color: rgba(51, 51, 51, 0.08);
+  background-color: #000;
 }
 
 table, th, td {
@@ -4271,7 +4271,7 @@ table span.badge {
 
 nav {
   color: #fff;
-  background-color: #ee6e73;
+  background-color: #000;
   width: 100%;
   height: 56px;
   line-height: 56px;
@@ -4392,7 +4392,7 @@ nav ul li {
 }
 
 nav ul li.active {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: transparent;
 }
 
 nav ul a {
@@ -4417,7 +4417,8 @@ nav ul a.btn > .material-icons, nav ul a.btn-large > .material-icons, nav ul a.b
 }
 
 nav ul a:hover {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: #000;
+  opacity: 0.5;
 }
 
 nav ul.left {
@@ -4739,7 +4740,7 @@ small {
   padding: 24px;
   margin: 0.5rem 0 1rem 0;
   border-radius: 2px;
-  background-color: #fff;
+  background-color: #000;
 }
 
 .card {
@@ -4982,7 +4983,7 @@ small {
   height: auto;
   min-height: 48px;
   line-height: 1.5em;
-  background-color: #323232;
+  background-color: #000;
   padding: 10px 25px;
   font-size: 1.1rem;
   font-weight: 300;
@@ -5107,7 +5108,7 @@ small {
   position: absolute;
   bottom: 0;
   height: 2px;
-  background-color: #f6b2b5;
+  background-color: inherit;
   will-change: left, right;
 }
 
@@ -5147,7 +5148,7 @@ small {
   top: 0;
   pointer-events: none;
   visibility: hidden;
-  background-color: #323232;
+  background-color: inherit;
 }
 
 .backdrop {
@@ -5156,7 +5157,7 @@ small {
   height: 7px;
   width: 14px;
   border-radius: 0 0 50% 50%;
-  background-color: #323232;
+  background-color: inherit;
   z-index: -1;
   -webkit-transform-origin: 50% 0%;
           transform-origin: 50% 0%;
@@ -5196,7 +5197,7 @@ small {
 .btn-small[disabled],
 .btn-flat[disabled] {
   pointer-events: none;
-  background-color: #DFDFDF !important;
+  background-color: #94BEFE !important;
   -webkit-box-shadow: none;
           box-shadow: none;
   color: #9F9F9F !important;
@@ -5222,7 +5223,7 @@ small {
 .btn-large[disabled]:hover,
 .btn-small[disabled]:hover,
 .btn-flat[disabled]:hover {
-  background-color: #DFDFDF !important;
+  background-color: #94BEFE !important;
   color: #9F9F9F !important;
 }
 
@@ -5246,13 +5247,13 @@ small {
 
 .btn:focus, .btn-large:focus, .btn-small:focus,
 .btn-floating:focus {
-  background-color: #1d7d74;
+  background-color: #94BEFE;
 }
 
 .btn, .btn-large, .btn-small {
   text-decoration: none;
   color: #fff;
-  background-color: #26a69a;
+  background-color: #94BEFE;
   text-align: center;
   letter-spacing: .5px;
   -webkit-transition: background-color .2s ease-out;
@@ -5261,7 +5262,8 @@ small {
 }
 
 .btn:hover, .btn-large:hover, .btn-small:hover {
-  background-color: #2bbbad;
+  background-color: #94BEFE;
+  opacity: 0.5;
 }
 
 .btn-floating {
@@ -5274,7 +5276,7 @@ small {
   height: 40px;
   line-height: 40px;
   padding: 0;
-  background-color: #26a69a;
+  background-color: #94BEFE;
   border-radius: 50%;
   -webkit-transition: background-color .3s;
   transition: background-color .3s;
@@ -5283,7 +5285,8 @@ small {
 }
 
 .btn-floating:hover {
-  background-color: #26a69a;
+  background-color: #94BEFE;
+  opacity: 0.5;
 }
 
 .btn-floating:before {
@@ -5486,7 +5489,7 @@ button.btn-floating {
   z-index: -1;
   width: 40px;
   height: 40px;
-  background-color: #26a69a;
+  background-color: inherit;
   border-radius: 50%;
   -webkit-transform: scale(0);
           transform: scale(0);
@@ -5857,8 +5860,8 @@ body.keyboard-focused .dropdown-content li:focus {
   -webkit-tap-highlight-color: transparent;
   line-height: 1.5;
   padding: 1rem;
-  background-color: #fff;
-  border-bottom: 1px solid #ddd;
+  background-color: #000;
+  border-bottom: 1px solid #94BEFE;
 }
 
 .collapsible-header:focus {
@@ -5874,7 +5877,7 @@ body.keyboard-focused .dropdown-content li:focus {
 }
 
 .keyboard-focused .collapsible-header:focus {
-  background-color: #eee;
+  background-color: #000;
 }
 
 .collapsible-body {
@@ -5908,7 +5911,8 @@ body.keyboard-focused .dropdown-content li:focus {
 
 .sidenav .collapsible-header:hover,
 .sidenav.fixed .collapsible-header:hover {
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: #000;
+  opacity: 0.5;
 }
 
 .sidenav .collapsible-header i,
@@ -7625,7 +7629,7 @@ input[type=range]::-ms-thumb {
 .sidenav .subheader {
   cursor: initial;
   pointer-events: none;
-  color: rgba(0, 0, 0, 0.54);
+  color: #000;
   font-size: 14px;
   font-weight: 500;
   line-height: 48px;
@@ -8486,10 +8490,19 @@ input[type=range]::-ms-thumb {
   visibility: visible;
   -webkit-animation: pulse-animation 1s cubic-bezier(0.24, 0, 0.38, 1) infinite;
           animation: pulse-animation 1s cubic-bezier(0.24, 0, 0.38, 1) infinite;
-  -webkit-transition: opacity .3s, visibility 0s 1s, -webkit-transform .3s;
-  transition: opacity .3s, visibility 0s 1s, -webkit-transform .3s;
-  transition: opacity .3s, transform .3s, visibility 0s 1s;
-  transition: opacity .3s, transform .3s, visibility 0s 1s, -webkit-transform .3s;
+  -webkit-transition: opacity .3s,
+ visibility 0s 1s,
+ -webkit-transform .3s;
+  transition: opacity .3s,
+ visibility 0s 1s,
+ -webkit-transform .3s;
+  transition: opacity .3s,
+ transform .3s,
+ visibility 0s 1s;
+  transition: opacity .3s,
+ transform .3s,
+ visibility 0s 1s,
+ -webkit-transform .3s;
 }
 
 .tap-target {
@@ -8542,10 +8555,19 @@ input[type=range]::-ms-thumb {
 
 .tap-target-wave::after {
   visibility: hidden;
-  -webkit-transition: opacity .3s, visibility 0s, -webkit-transform .3s;
-  transition: opacity .3s, visibility 0s, -webkit-transform .3s;
-  transition: opacity .3s, transform .3s, visibility 0s;
-  transition: opacity .3s, transform .3s, visibility 0s, -webkit-transform .3s;
+  -webkit-transition: opacity .3s,
+ visibility 0s,
+ -webkit-transform .3s;
+  transition: opacity .3s,
+ visibility 0s,
+ -webkit-transform .3s;
+  transition: opacity .3s,
+ transform .3s,
+ visibility 0s;
+  transition: opacity .3s,
+ transform .3s,
+ visibility 0s,
+ -webkit-transform .3s;
   z-index: -1;
 }
 
