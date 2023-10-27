@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="5542" viewBox="0 0 1920 5542">
+  <defs>
+    <clipPath id="clip-FAQ">
+      <rect width="1920" height="5542"/>
+    </clipPath>
+  </defs>
+  <g id="FAQ" clip-path="url(#clip-FAQ)">
+    <rect width="1920" height="5542"/>
+    <rect id="Rectangle_14" data-name="Rectangle 14" width="1920" height="201"/>
+    <path id="Rectangle_14_-_Outline" data-name="Rectangle 14 - Outline" d="M1,1V200H1919V1H1M0,0H1920V201H0Z" fill="rgba(112,112,112,0)"/>
+    <g id="Group_1" data-name="Group 1" transform="translate(-15 776)">
+      <rect id="Rectangle_15" data-name="Rectangle 15" width="1603" height="228" transform="translate(174 320)" fill="#fff"/>
+      <path id="Rectangle_15_-_Outline" data-name="Rectangle 15 - Outline" d="M-5-5H1608V233H-5ZM1598,5H5V223H1598Z" transform="translate(174 320)" fill="#94befe"/>
+      <text id="Question_1" data-name="Question 1" transform="translate(228 473)" fill="#94befe" font-size="100" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Question</tspan><tspan y="0" font-family="SansSerifCollection, Sans Serif Collection"> </tspan><tspan y="0">1</tspan></text>
+      <path id="Polygon_1" data-name="Polygon 1" d="M49,0,98,107H0Z" transform="translate(1702 488) rotate(180)" fill="#94befe"/>
+    </g>
+    <g id="Group_2" data-name="Group 2" transform="translate(-15 1222)">
+      <rect id="Rectangle_15-2" data-name="Rectangle 15" width="1603" height="228" transform="translate(174 320)" fill="#fff"/>
+      <path id="Rectangle_15_-_Outline-2" data-name="Rectangle 15 - Outline" d="M-5-5H1608V233H-5ZM1598,5H5V223H1598Z" transform="translate(174 320)" fill="#94befe"/>
+      <text id="Question_2" data-name="Question 2" transform="translate(228 473)" fill="#94befe" font-size="100" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Question</tspan><tspan y="0" font-family="SansSerifCollection, Sans Serif Collection"> </tspan><tspan y="0">2</tspan></text>
+      <path id="Polygon_1-2" data-name="Polygon 1" d="M49,0,98,107H0Z" transform="translate(1702 488) rotate(180)" fill="#94befe"/>
+    </g>
+    <g id="Group_3" data-name="Group 3" transform="translate(-15 1668)">
+      <rect id="Rectangle_15-3" data-name="Rectangle 15" width="1603" height="228" transform="translate(174 320)" fill="#fff"/>
+      <path id="Rectangle_15_-_Outline-3" data-name="Rectangle 15 - Outline" d="M-5-5H1608V233H-5ZM1598,5H5V223H1598Z" transform="translate(174 320)" fill="#94befe"/>
+      <text id="Question_3" data-name="Question 3" transform="translate(228 473)" fill="#94befe" font-size="100" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Question</tspan><tspan y="0" font-family="SansSerifCollection, Sans Serif Collection"> </tspan><tspan y="0">3</tspan></text>
+      <path id="Polygon_1-3" data-name="Polygon 1" d="M49,0,98,107H0Z" transform="translate(1702 488) rotate(180)" fill="#94befe"/>
+    </g>
+    <g id="Group_4" data-name="Group 4" transform="translate(-15 2114)">
+      <rect id="Rectangle_15-4" data-name="Rectangle 15" width="1603" height="228" transform="translate(174 320)" fill="#fff"/>
+      <path id="Rectangle_15_-_Outline-4" data-name="Rectangle 15 - Outline" d="M-5-5H1608V233H-5ZM1598,5H5V223H1598Z" transform="translate(174 320)" fill="#94befe"/>
+      <text id="Question_4" data-name="Question 4" transform="translate(228 473)" fill="#94befe" font-size="100" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Question</tspan><tspan y="0" font-family="SansSerifCollection, Sans Serif Collection"> </tspan><tspan y="0">4</tspan></text>
+      <path id="Polygon_1-4" data-name="Polygon 1" d="M49,0,98,107H0Z" transform="translate(1702 488) rotate(180)" fill="#94befe"/>
+    </g>
+    <text id="Frequently_Asked_Questions" data-name="Frequently
+Asked Questions" transform="translate(960 461)" fill="#fff" font-size="150" font-family="SegoeUI, Segoe UI"><tspan x="-350.061" y="0">Frequently</tspan><tspan y="0" font-family="SansSerifCollection, Sans Serif Collection"></tspan><tspan x="-552.19" y="300">Asked</tspan><tspan y="300" font-family="SansSerifCollection, Sans Serif Collection"> </tspan><tspan y="300">Questions</tspan></text>
+    <rect id="Rectangle_16" data-name="Rectangle 16" width="1920" height="896" transform="translate(0 4655)"/>
+    <path id="Rectangle_16_-_Outline" data-name="Rectangle 16 - Outline" d="M1,1V895H1919V1H1M0,0H1920V896H0Z" transform="translate(0 4655)" fill="rgba(112,112,112,0)"/>
+    <text id="Home" transform="translate(394 4851)" fill="#fff" font-size="60" font-family="SegoeUI, Segoe UI" text-decoration="underline"><tspan x="0" y="0">Home</tspan></text>
+    <text id="FAQ-2" data-name="FAQ" transform="translate(394 5023)" fill="#fff" font-size="60" font-family="SegoeUI, Segoe UI" text-decoration="underline"><tspan x="0" y="0">FAQ</tspan></text>
+    <text id="Information" transform="translate(394 5195)" fill="#fff" font-size="60" font-family="SegoeUI, Segoe UI" text-decoration="underline"><tspan x="0" y="0">Information</tspan></text>
+    <text id="About_Us" data-name="About Us" transform="translate(1527 4856)" fill="#fff" font-size="60" font-family="SegoeUI, Segoe UI" text-decoration="underline"><tspan x="-245.698" y="0">About</tspan><tspan y="0" font-family="SansSerifCollection, Sans Serif Collection"> </tspan><tspan y="0">Us</tspan></text>
+    <text id="Contact_Us" data-name="Contact Us" transform="translate(1527 5026)" fill="#fff" font-size="60" font-family="SegoeUI, Segoe UI" text-decoration="underline"><tspan x="-287.446" y="0">Contact</tspan><tspan y="0" font-family="SansSerifCollection, Sans Serif Collection"> </tspan><tspan y="0">Us</tspan></text>
+    <text id="Copyright_2023_CSScholars_-_All_Rights_Reserved" data-name="Copyright © 2023 CSScholars - All Rights Reserved" transform="translate(960 5452)" fill="#fff" font-size="60" font-family="SegoeUI, Segoe UI"><tspan x="-666.97" y="0">Copyright</tspan><tspan y="0" font-family="SansSerifCollection, Sans Serif Collection"> </tspan><tspan y="0">©</tspan><tspan y="0" font-family="SansSerifCollection, Sans Serif Collection"> </tspan><tspan y="0">2023</tspan><tspan y="0" font-family="SansSerifCollection, Sans Serif Collection"> </tspan><tspan y="0">CSScholars</tspan><tspan y="0" xml:space="preserve" font-family="SansSerifCollection, Sans Serif Collection"> - </tspan><tspan y="0">All</tspan><tspan y="0" font-family="SansSerifCollection, Sans Serif Collection"> </tspan><tspan y="0">Rights</tspan><tspan y="0" font-family="SansSerifCollection, Sans Serif Collection"> </tspan><tspan y="0">Reserved</tspan></text>
+    <circle id="Ellipse_2" data-name="Ellipse 2" cx="64" cy="64" r="64" transform="translate(59 31)" fill="#94befe"/>
+    <text id="Contact_Us-2" data-name="Contact Us" transform="translate(1482 117)" fill="#fff" font-size="50" font-family="SegoeUI, Segoe UI" text-decoration="underline"><tspan x="0" y="0">Contact</tspan><tspan y="0" font-family="SansSerifCollection, Sans Serif Collection"> </tspan><tspan y="0">Us</tspan></text>
+    <text id="FAQ-3" data-name="FAQ" transform="translate(1269 114)" fill="#fff" font-size="50" font-family="SegoeUI, Segoe UI" text-decoration="underline"><tspan x="0" y="0">FAQ</tspan></text>
+    <text id="Information-2" data-name="Information" transform="translate(889 114)" fill="#fff" font-size="50" font-family="SegoeUI, Segoe UI" text-decoration="underline"><tspan x="0" y="0">Information</tspan></text>
+    <text id="About_Us-2" data-name="About Us" transform="translate(563 117)" fill="#fff" font-size="50" font-family="SegoeUI, Segoe UI" text-decoration="underline"><tspan x="0" y="0">About</tspan><tspan y="0" font-family="SansSerifCollection, Sans Serif Collection"> </tspan><tspan y="0">Us</tspan></text>
+    <text id="Home-2" data-name="Home" transform="translate(308 114)" fill="#fff" font-size="50" font-family="SegoeUI, Segoe UI" text-decoration="underline"><tspan x="0" y="0">Home</tspan></text>
+    <g id="Group_5" data-name="Group 5" transform="translate(-15 2560)">
+      <rect id="Rectangle_15-5" data-name="Rectangle 15" width="1603" height="228" transform="translate(174 320)" fill="#fff"/>
+      <path id="Rectangle_15_-_Outline-5" data-name="Rectangle 15 - Outline" d="M-5-5H1608V233H-5ZM1598,5H5V223H1598Z" transform="translate(174 320)" fill="#94befe"/>
+      <text id="Question_5" data-name="Question 5" transform="translate(228 473)" fill="#94befe" font-size="100" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Question</tspan><tspan y="0" font-family="SansSerifCollection, Sans Serif Collection"> </tspan><tspan y="0">5</tspan></text>
+      <path id="Polygon_1-5" data-name="Polygon 1" d="M49,0,98,107H0Z" transform="translate(1702 488) rotate(180)" fill="#94befe"/>
+    </g>
+    <g id="Group_6" data-name="Group 6" transform="translate(-15 3006)">
+      <rect id="Rectangle_15-6" data-name="Rectangle 15" width="1603" height="228" transform="translate(174 320)" fill="#fff"/>
+      <path id="Rectangle_15_-_Outline-6" data-name="Rectangle 15 - Outline" d="M-5-5H1608V233H-5ZM1598,5H5V223H1598Z" transform="translate(174 320)" fill="#94befe"/>
+      <text id="Question_6" data-name="Question 6" transform="translate(228 473)" fill="#94befe" font-size="100" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Question</tspan><tspan y="0" font-family="SansSerifCollection, Sans Serif Collection"> </tspan><tspan y="0">6</tspan></text>
+      <path id="Polygon_1-6" data-name="Polygon 1" d="M49,0,98,107H0Z" transform="translate(1702 488) rotate(180)" fill="#94befe"/>
+    </g>
+    <g id="Group_7" data-name="Group 7" transform="translate(-15 3452)">
+      <rect id="Rectangle_15-7" data-name="Rectangle 15" width="1603" height="228" transform="translate(174 320)" fill="#fff"/>
+      <path id="Rectangle_15_-_Outline-7" data-name="Rectangle 15 - Outline" d="M-5-5H1608V233H-5ZM1598,5H5V223H1598Z" transform="translate(174 320)" fill="#94befe"/>
+      <text id="Question_7" data-name="Question 7" transform="translate(228 473)" fill="#94befe" font-size="100" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Question</tspan><tspan y="0" font-family="SansSerifCollection, Sans Serif Collection"> </tspan><tspan y="0">7</tspan></text>
+      <path id="Polygon_1-7" data-name="Polygon 1" d="M49,0,98,107H0Z" transform="translate(1702 488) rotate(180)" fill="#94befe"/>
+    </g>
+    <g id="Group_8" data-name="Group 8" transform="translate(-15 3898)">
+      <rect id="Rectangle_15-8" data-name="Rectangle 15" width="1603" height="228" transform="translate(174 320)" fill="#fff"/>
+      <path id="Rectangle_15_-_Outline-8" data-name="Rectangle 15 - Outline" d="M-5-5H1608V233H-5ZM1598,5H5V223H1598Z" transform="translate(174 320)" fill="#94befe"/>
+      <text id="Question_8" data-name="Question 8" transform="translate(228 473)" fill="#94befe" font-size="100" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Question</tspan><tspan y="0" font-family="SansSerifCollection, Sans Serif Collection"> </tspan><tspan y="0">8</tspan></text>
+      <path id="Polygon_1-8" data-name="Polygon 1" d="M49,0,98,107H0Z" transform="translate(1702 488) rotate(180)" fill="#94befe"/>
+    </g>
+  </g>
+</svg>
