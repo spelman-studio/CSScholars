@@ -4,21 +4,27 @@
 	<meta charset="UTF-8">
 	<meta content="AI, Technology, Project, Generative AI" name="keywords">
 	<meta content="Alex Abreu, Sean Alexander, Sam Bryant, Jordyn Pryor, Jane Spelman, Garland Weaver" name="author">
-	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<link href="main.css" rel="stylesheet">
 	<link href="/materialize/css/materialize.css" rel="stylesheet">
 	<link href="/materialize/css/materialize.min.css" rel="stylesheet">
 	<link href="/materialize/js/materialize.js" rel="stylesheet">
 	<link href="/materialize/js/materialize.min.js" rel="stylesheet">
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-	<script>
-	        $(document).ready(function () {
-	         $('.slider').slider({full_width: true});
-	     });
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<script type="text/javascript" src="js/materialize.min.js">
 	    document.addEventListener('DOMContentLoaded', function() {
-	      var elems = document.querySelectorAll('.parallax');
-	      var instances = M.Parallax.init(elems, options);
-	    });
+    		var elems = document.querySelectorAll('.slider');
+    		var instances = M.Slider.init(elems, options);
+  		});
+		document.addEventListener('DOMContentLoaded', function() {
+    		var elems = document.querySelectorAll('.sidenav');
+    		var instances = M.Sidenav.init(elems, options);
+  		});
+		document.addEventListener('DOMContentLoaded', function() {
+    		var elems = document.querySelectorAll('.parallax');
+    		var instances = M.Parallax.init(elems, options);
+  		});
 	</script>
 	<title>CSScholars - Home</title>
 </head>
@@ -27,26 +33,34 @@
 	<header>
 		<nav class="black">
 			<div class="nav-wrapper">
-				<a class="brand-logo" href="index.html">CSScholars</a>
-				<ul class="right hide-on-med-and-down" id="nav-mobile">
+				<a href="index.html" class="brand-logo">CSScholars</a>
+				<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+				<ul class="right hide-on-med-and-down">
 					<li>
-						<a href="index.html">Home</a>
+						<a href="index.html" :hover>Home</a>
 					</li>
 					<li>
-						<a href="info.html" target="_blank">Information</a>
+						<a href="info.html" target="_blank" :hover>Information</a>
 					</li>
 					<li>
-						<a href="about.html" target="_blank">About Us</a>
+						<a href="about.html" target="_blank" :hover>About Us</a>
 					</li>
 					<li>
-						<a href="faq.html" target="_blank">FAQ</a>
+						<a href="faq.html" target="_blank" :hover>FAQ</a>
 					</li>
 					<li>
-						<a href="contact.html" target="_blank">Contact Us</a>
+						<a href="contact.html" target="_blank" :hover>Contact Us</a>
 					</li>
 				</ul>
 			</div>
 		</nav>
+		<ul class="sidenav" id="mobile-demo">
+			<li><a href="index.html" :hover>Home</a></li>
+			<li><a href="info.html" target="_blank" :hover>Information</a></li>
+			<li><a href="about.html" target="_blank" :hover>About Us</a></li>
+			<li><a href="faq.html" target="_blank" :hover>FAQ</a></li>
+			<li><a href="contact.html" target="_blank" :hover>Contact Us</a></li>
+		  </ul>
 	</header><!--Cover Image-->
 	<div class="container"><img alt="" class="responsive-img" src="/img/AI%20_pic_3.jpg" width="100%"></div><!--Description-->
 	<div class="container">
@@ -149,8 +163,6 @@
 						</div>
 					</div>
 				</td>
-			</tr>
-			<tr>
 				<td>
 					<div class="card">
 						<div class="card-image waves-effect waves-block waves-light"><img class="activator" src="/img/headshot_fill.jpg"></div>
@@ -164,6 +176,7 @@
 						</div>
 					</div>
 				</td>
+				<tr>
 				<td>
 					<div class="card">
 						<div class="card-image waves-effect waves-block waves-light"><img class="activator" src="/img/headshot_fill.jpg"></div>
@@ -177,8 +190,6 @@
 						</div>
 					</div>
 				</td>
-			</tr>
-			<tr>
 				<td>
 					<div class="card">
 						<div class="card-image waves-effect waves-block waves-light"><img class="activator" src="/img/headshot_fill.jpg"></div>
@@ -207,7 +218,8 @@
 				</td>
 			</tr>
 		</table>
-	</div><!--Contact-->
+	</div>
+	<!--Contact-->
 	<div class="container">
 		<h2>Contact Information</h2>
 		<h3>Oxford, Ohio</h3>
