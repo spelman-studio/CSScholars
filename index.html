@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta content="AI, Technology, Project, Generative AI" name="keywords">
 	<meta content="Alex Abreu, Sean Alexander, Sam Bryant, Jordyn Pryor, Jane Spelman, Garland Weaver" name="author">
-	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta content="width=device-width" name="viewport">
 	<link href="main.css" rel="stylesheet">
 	<link href="/materialize/css/materialize.css" rel="stylesheet">
 	<link href="/materialize/css/materialize.min.css" rel="stylesheet">
@@ -20,6 +20,7 @@
 	       document.addEventListener('DOMContentLoaded', function() {
 	           var elems = document.querySelectorAll('.sidenav');
 	           var instances = M.Sidenav.init(elems, options);
+			   var instance = M.Sidenav.getInstance(elem);
 	       });
 	       document.addEventListener('DOMContentLoaded', function() {
 	           var elems = document.querySelectorAll('.parallax');
@@ -36,23 +37,24 @@
 				<a class="brand-logo" href="index.html">CSScholars</a> <a class="sidenav-trigger" data-target="mobile-demo" href="#"><i class="material-icons">menu</i></a>
 				<ul class="right hide-on-med-and-down">
 					<li>
-						<a href="index.html">Home</a>
+						<a href="index.html"><h5 class="white-text">Home</h5></a>
 					</li>
 					<li>
-						<a href="info.html" target="_blank">Information</a>
+						<a href="info.html" target="_blank"><h5 class="white-text">Information</h5></a>
 					</li>
 					<li>
-						<a href="about.html" target="_blank">About Us</a>
+						<a href="about.html" target="_blank"><h5 class="white-text">About Us</h5></a>
 					</li>
 					<li>
-						<a href="faq.html" target="_blank">FAQ</a>
+						<a href="faq.html" target="_blank"><h5 class="white-text">FAQ</h5></a>
 					</li>
 					<li>
-						<a href="contact.html" target="_blank">Contact Us</a>
+						<a href="contact.html" target="_blank"><h5 class="white-text">Contact Us</h5></a>
 					</li>
 				</ul>
 			</div>
 		</nav>
+	<!--not working-->
 		<ul class="sidenav" id="mobile-demo">
 			<li>
 				<a href="index.html">Home</a>
@@ -72,7 +74,8 @@
 		</ul>
 	</header>
 	<!--Cover Image-->
-	<div class="container"><img alt="" class="responsive-img" src="/img/AI%20_pic_3.jpg" width="100%"></div><!--Description-->
+	<img alt="" id="top" class="responsive-img" src="/img/AI%20_pic_3.jpg" width="100%">
+	<!--Description-->
 	<div class="container">
 		<h1 class="blue-text text-lighten-3">What is Generative AI?</h1>
 		<p class="white-text flow-text">Description</p>
@@ -107,29 +110,29 @@
 			<li>
 				<img src="/img/AI_pic_11.jpg">
 				<div class="caption center-align">
-					<h3>This is our big Tagline!</h3>
-					<h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+					<h3>Cybersecurity</h3>
+          			<h5 class="light grey-text text-lighten-3">Will AI evolve to perpetuate or prevent cybercrime?</h5>
 				</div>
 			</li>
 			<li>
 				<img src="/img/AI_pic_12.jpg">
 				<div class="caption left-align">
-					<h3>Left Aligned Caption</h3>
-					<h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+					<h3>Personal Life</h3>
+          			<h5 class="light grey-text text-lighten-3">AI effects us all, one way or another.</h5>
 				</div>
 			</li>
 			<li>
 				<img src="/img/AI_pic_6.jpg">
 				<div class="caption right-align">
-					<h3>Right Aligned Caption</h3>
-					<h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+					<h3>Finance</h3>
+          			<h5 class="light grey-text text-lighten-3">The business of tomorrow is AI.</h5>
 				</div>
 			</li>
 			<li>
 				<img src="/img/AI_pic_5.jpg">
 				<div class="caption center-align">
-					<h3>Center Aligned Caption</h3>
-					<h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+					<h3>No one knows for sure what AI will bring. </h3>
+          			<h5 class="light grey-text text-lighten-3">But we're working to find out!</h5>
 				</div>
 			</li>
 		</ul>
@@ -148,149 +151,45 @@
 	             $('.slider').slider({full_width: true});
 	         });
 	</script> 
-	<!--Team-->
-	<h2>Meet the Team</h2>
-	<div class="container">
-		<table>
-			<tr>
-				<td>
-					<div class="card">
-						<div class="card-image waves-effect waves-block waves-light"><img class="activator" src="/img/headshot_fill.jpg"></div>
-						<div class="card-content">
-							<span class="card-title activator black-text">Alex Abreu<i class="material-icons right">more_vert</i></span>
-							<p><a href="#">This is a link</a></p>
-						</div>
-						<div class="card-reveal">
-							<span class="card-title black-text">Alex Abreu<i class="material-icons right">close</i></span>
-							<p>Alex Abreu bio.</p>
-						</div>
-					</div>
-				</td>
-				<td>
-					<div class="card">
-						<div class="card-image waves-effect waves-block waves-light"><img class="activator" src="/img/headshot_fill.jpg"></div>
-						<div class="card-content">
-							<span class="card-title activator black-text">Sean Alexander<i class="material-icons right">more_vert</i></span>
-							<p><a href="#">This is a link</a></p>
-						</div>
-						<div class="card-reveal">
-							<span class="card-title black-text">Sean Alexander<i class="material-icons right">close</i></span>
-							<p>Sean Alexander bio.</p>
-						</div>
-					</div>
-				</td>
-				<td>
-					<div class="card">
-						<div class="card-image waves-effect waves-block waves-light"><img class="activator" src="/img/headshot_fill.jpg"></div>
-						<div class="card-content">
-							<span class="card-title activator black-text">Sam Bryant<i class="material-icons right">more_vert</i></span>
-							<p><a href="#">This is a link</a></p>
-						</div>
-						<div class="card-reveal">
-							<span class="card-title black-text">Sam Bryant<i class="material-icons right">close</i></span>
-							<p>Sam Bryant bio.</p>
-						</div>
-					</div>
-				</td>
-			</tr>
-			<tr>
-				<td>
-					<div class="card">
-						<div class="card-image waves-effect waves-block waves-light"><img class="activator" src="/img/headshot_fill.jpg"></div>
-						<div class="card-content">
-							<span class="card-title activator black-text">Jordan Pryor<i class="material-icons right">more_vert</i></span>
-							<p><a href="#">This is a link</a></p>
-						</div>
-						<div class="card-reveal">
-							<span class="card-title black-text">Jordan Pryor<i class="material-icons right">close</i></span>
-							<p>Jordan Pryor bio.</p>
-						</div>
-					</div>
-				</td>
-				<td>
-					<div class="card">
-						<div class="card-image waves-effect waves-block waves-light"><img class="activator" src="/img/headshot_fill.jpg"></div>
-						<div class="card-content">
-							<span class="card-title activator black-text">Jane Spelman<i class="material-icons right">more_vert</i></span>
-							<p><a href="#">This is a link</a></p>
-						</div>
-						<div class="card-reveal">
-							<span class="card-title black-text">Jane Spelman<i class="material-icons right">close</i></span>
-							<p>Jane Spelman bio.</p>
-						</div>
-					</div>
-				</td>
-				<td>
-					<div class="card">
-						<div class="card-image waves-effect waves-block waves-light"><img class="activator" src="/img/headshot_fill.jpg"></div>
-						<div class="card-content">
-							<span class="card-title activator black-text">Garland Weaver<i class="material-icons right">more_vert</i></span>
-							<p><a href="#">This is a link</a></p>
-						</div>
-						<div class="card-reveal">
-							<span class="card-title black-text">Garland Weaver<i class="material-icons right">close</i></span>
-							<p>Garland Weaver bio.</p>
-						</div>
-					</div>
-				</td>
-			</tr>
-		</table>
-		<!--Contact-->
-		<h2>Contact Information</h2>
-		<h3>Oxford, Ohio</h3>
-		<table>
-			<!--Website-->
-			<tr>
-				<td><img alt="" src=""></td>
-				<td>
-					<p>yourname@website.com</p>
-				</td>
-			</tr>
-			<!--Phone-->
-			<tr>
-				<td><img alt="" src=""></td>
-				<td>
-					<p>(123) 456-7890</p>
-				</td>
-			</tr>
-		</table>
 		<!--Footer-->
+	<div class="container">
 		<footer class="page-footer black">
 			<div class="row">
 				<div class="col l6 s12">
 					<h2 class="blue-text text-lighten-3">CSScholars</h2>
-					<p class="white-text">Lorem ipsum</p>
+					<h5 class="white-text">Preparing for the next stage of humanity</h5>
 				</div>
-				<div class="col l2">
+				<div class="col col l4 offset-l2 s12">
 					<ul>
 						<li>
 							<a href="index.html" target="_blank">
-							<p>Home</p></a>
+							<h5 class="blue-text text-lighten-3">Home</h5></a>
 						</li>
 						<li>
 							<a href="faq.html" target="_blank">
-							<p>FAQ</p></a>
+							<h5 class="blue-text text-lighten-3">FAQ</h5></a>
 						</li>
 						<li>
 							<a href="info.html" target="_blank">
-							<p>Information</p></a>
+							<h5 class="blue-text text-lighten-3">Information</h5></a>
 						</li>
 						<li>
 							<a href="contact.html" target="_blank">
-							<p>Contact Us</p></a>
+							<h5 class="blue-text text-lighten-3">Contact Us</h5></a>
 						</li>
 						<li>
 							<a href="about.html">
-							<p>About Us</p></a>
+							<h5 class="blue-text text-lighten-3">About Us</h5></a>
 						</li>
 						<li>
 							<a href="" target="_blank">
-							<p>Sources</p></a>
+							<h5 class="blue-text text-lighten-3">Sources</h5></a>
 						</li>
 					</ul>
 				</div>
 			</div>
 			<!--Social Media-->
+			<div class="center">
 			<table class="icons">
 				<tr>
 					<td>
@@ -304,12 +203,16 @@
 					</td>
 				</tr>
 			</table>
+		</div>
 		</footer>
 	</div>
 	<div class="footer-copyright">
 		<div class="container">
-			<p>Copyright &copy; 2023 CSScholars - All Rights Reserved</p>
+			<h5 class="white-text">Copyright &copy; 2023 CSScholars - All Rights Reserved</h5>
 		</div>
 	</div>
+	<div class="sticky">
+		<a class="sticky btn-floating blue lighten-3" href="#top"><i class="material-icons">arrow_upward</i></a> 
+		</div>
 </body>
 </html>
