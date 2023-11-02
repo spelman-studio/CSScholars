@@ -13,13 +13,13 @@
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<script src="js/materialize.min.js" type="text/javascript">
+		document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems, options);
+  });
 	       document.addEventListener('DOMContentLoaded', function() {
 	           var elems = document.querySelectorAll('.slider');
 	           var instances = M.Slider.init(elems, options);
-	       });
-	       document.addEventListener('DOMContentLoaded', function() {
-	           var elems = document.querySelectorAll('.sidenav');
-	           var instances = M.Sidenav.init(elems, options);
 	       });
 	       document.addEventListener('DOMContentLoaded', function() {
 	           var elems = document.querySelectorAll('.parallax');
@@ -31,43 +31,43 @@
 <body class="black">
 	<!--Header-->
 	<header>
-		<nav class="black">
+		<nav class="blue lighten-3">
 			<div class="nav-wrapper">
-				<a class="brand-logo" href="index.html">CSScholars</a> <a class="sidenav-trigger" data-target="mobile-demo" href="#"><i class="material-icons">menu</i></a>
+				<a class="brand-logo" href="index.html"><h5 class="black-text">CSScholars</h5></a><a class="sidenav-trigger dropdown-trigger" data-activates="mobile-dropdown" href="#"><i class="material-icons black-text activator">menu</i></a>
 				<ul class="right hide-on-med-and-down">
 					<li>
-						<a href="index.html">Home</a>
+						<a href="index.html"><h5 class="black-text">Home</h5></a>
 					</li>
 					<li>
-						<a href="info.html" target="_blank">Information</a>
+						<a href="info.html" target="_blank"><h5 class="black-text">Information</h5></a>
 					</li>
 					<li>
-						<a href="about.html" target="_blank">About Us</a>
+						<a href="about.html" target="_blank"><h5 class="black-text">About Us</h5></a>
 					</li>
 					<li>
-						<a href="faq.html" target="_blank">FAQ</a>
+						<a href="faq.html" target="_blank"><h5 class="black-text">FAQ</h5></a>
 					</li>
 					<li>
-						<a href="contact.html" target="_blank">Contact Us</a>
+						<a href="contact.html" target="_blank"><h5 class="black-text">Contact Us</h5></a>
 					</li>
 				</ul>
 			</div>
-		</nav>
-		<ul class="sidenav" id="mobile-demo">
+			<!--Not working-->
+		<ul class="sidenav dropdown-content" id="mobile-dropdown">
 			<li>
-				<a href="index.html">Home</a>
+				<a href="index.html"><h5 class="black-text">Home</h5></a>
 			</li>
 			<li>
-				<a href="info.html" target="_blank">Information</a>
+				<a href="info.html" target="_blank"><h5 class="black-text">Information</h5></a>
 			</li>
 			<li>
-				<a href="about.html" target="_blank">About Us</a>
+				<a href="about.html" target="_blank"><h5 class="black-text">About Us</h5></a>
 			</li>
 			<li>
-				<a href="faq.html" target="_blank">FAQ</a>
+				<a href="faq.html" target="_blank"><h5 class="black-text">FAQ</h5></a>
 			</li>
 			<li>
-				<a href="contact.html" target="_blank">Contact Us</a>
+				<a href="contact.html" target="_blank"><h5 class="black-text">Contact Us</h5></a>
 			</li>
 		</ul>
 	</header>
