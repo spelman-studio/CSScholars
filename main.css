@@ -22,9 +22,8 @@ div.sticky {
 	padding: 20px;
   }
 
-  a .topics :hover {
+  a :hover {
 	opacity: 0.5;
-	background: transparent;
   }
 /*Image Gallery*/
 
