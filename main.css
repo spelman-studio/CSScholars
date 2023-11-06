@@ -21,6 +21,11 @@ div.sticky {
 	bottom: 0;
 	padding: 20px;
   }
+
+  a .topics :hover {
+	opacity: 0.5;
+	background: transparent;
+  }
 /*Image Gallery*/
 
 div.gallery {
