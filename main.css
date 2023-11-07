@@ -32,9 +32,8 @@ div.gallery {
 	margin: auto;
 	width: 90%;
 }
-div.headshot:hover {
+div.img:hover {
 	opacity: 0.5;
-	border: lightgray;
 }
 div.gallery img {
 	width: 20%;
