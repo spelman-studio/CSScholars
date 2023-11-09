@@ -4880,7 +4880,7 @@ body.keyboard-focused .dropdown-content li:focus {
 }
 .sidenav .collapsible-body, .sidenav.fixed .collapsible-body {
 	border: 0;
-	background-color: #fff;
+	background-color: #000;
 }
 .sidenav .collapsible-body li a, .sidenav.fixed .collapsible-body li a {
 	padding: 0 23.5px 0 31px;

@@ -25,7 +25,20 @@
 	           var elems = document.querySelectorAll('.parallax');
 	           var instances = M.Parallax.init(elems, options);
 	       });
-	</script>
+		</script>
+		   <!--function initialize() {
+
+				var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
+
+				// Resize stuff...
+				google.maps.event.addDomListener(window, "resize", function() {
+  					var center = map.getCenter();
+  					google.maps.event.trigger(map, "resize");
+  					map.setCenter(center); 
+				});
+
+			}
+	</script>-->
 	<title>CSScholars - Home</title>
 </head>
 <body class="black">
@@ -81,7 +94,9 @@
 	<h5 class="white-text">(614) 758-3448</h5>
 	<!--Location-->
 	<h5 class="white-text">Miami University, Oxford, Ohio:</h5>
-	<iframe allowfullscreen height="450" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24625.374827056843!2d-84.7705796485688!3d39.510610856140616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88403c490fb6d3ad%3A0x1d5080263c547b36!2sMiami%20University%2C%20Oxford%2C%20OH%2045056!5e0!3m2!1sen!2sus!4v1696125808445!5m2!1sen!2sus" width="800" style="border:0;"></iframe>
+	<div class="map">
+		<iframe allowfullscreen src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24625.374827056843!2d-84.7705796485688!3d39.510610856140616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88403c490fb6d3ad%3A0x1d5080263c547b36!2sMiami%20University%2C%20Oxford%2C%20OH%2045056!5e0!3m2!1sen!2sus!4v1696125808445!5m2!1sen!2sus" style="border:0;"></iframe>
+	</div>
 	</div>
 	<div class="container">
 		<br>
@@ -91,11 +106,12 @@
 				<form class="col s12">
 				  <div class="row">
 					<div class="input-field col s6">
-					  <i class="material-icons white-text prefix">account_circle</i>
+					  <i class="material-icons white-text prefix">person</i>
 					  <input id="icon_prefix" type="text" class="validate">
 					  <label for="icon_prefix">First Name</label>
 					</div>
 			<div class="input-field col s6">
+				<i class="material-icons white-text prefix">people</i>
 			  <input id="last_name" type="text" class="validate">
 			  <label for="last_name">Last Name</label>
 			</div>

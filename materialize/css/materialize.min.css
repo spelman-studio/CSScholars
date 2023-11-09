@@ -4551,7 +4551,7 @@ body.keyboard-focused .dropdown-content li:focus {
 	-webkit-tap-highlight-color: transparent;
 	line-height: 1.5;
 	padding: 1rem;
-	background-color: #fff;
+	background-color: #000;
 	border-bottom: 1px solid #ddd
 }
 .collapsible-header:focus {
@@ -4590,14 +4590,14 @@ body.keyboard-focused .dropdown-content li:focus {
 	padding: 0 16px
 }
 .sidenav .collapsible-header:hover, .sidenav.fixed .collapsible-header:hover {
-	background-color: rgba(0, 0, 0, 0.05)
+	background-color: #000
 }
 .sidenav .collapsible-header i, .sidenav.fixed .collapsible-header i {
 	line-height: inherit
 }
 .sidenav .collapsible-body, .sidenav.fixed .collapsible-body {
 	border: 0;
-	background-color: #fff
+	background-color: #000
 }
 .sidenav .collapsible-body li a, .sidenav.fixed .collapsible-body li a {
 	padding: 0 23.5px 0 31px

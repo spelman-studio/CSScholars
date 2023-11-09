@@ -11,8 +11,8 @@ nav {
 }
 
 .headshot {
-	width: 800px;
-	height: auto;
+	width: 400px;
+	height: 600px;
 }
 
 div.sticky {
@@ -25,6 +25,7 @@ div.sticky {
   a :hover {
 	opacity: 0.5;
   }
+
 /*Image Gallery*/
 
 div.gallery {
