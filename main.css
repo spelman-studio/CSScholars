@@ -9,23 +9,20 @@ nav {
 	height: 50%;
 	width: auto;
 }
-
 .headshot {
 	width: 400px;
 	height: 600px;
 }
-
 div.sticky {
-	position: -webkit-sticky; /* Safari */
+	position: -webkit-sticky;
+	/* Safari */
 	position: sticky;
 	bottom: 0;
 	padding: 20px;
-  }
-
-  a :hover {
+}
+a :hover {
 	opacity: 0.5;
-  }
-
+}
 /*Image Gallery*/
 
 div.gallery {
@@ -91,7 +88,7 @@ div.desc {
 	color: white;
 }
 .fa {
-	font-size: 150% !important;
+	font-size: 220% !important;
 	padding: 20px;
 	width: 60px;
 	text-decoration: none;

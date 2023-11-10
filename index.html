@@ -11,29 +11,28 @@
 	<link href="/materialize/js/materialize.js" rel="stylesheet">
 	<link href="/materialize/js/materialize.min.js" rel="stylesheet">
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"><!-- Compiled and minified CSS -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet"><!-- Compiled and minified JavaScript -->
 
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
+	</script>
 	<script src="js/materialize.min.js" type="text/javascript">
-		document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.sidenav');
-    var instances = M.Sidenav.init(elems, options);
-  });
 	       document.addEventListener('DOMContentLoaded', function() {
-	           var elems = document.querySelectorAll('.slider');
-	           var instances = M.Slider.init(elems, options);
-	       });
-	       document.addEventListener('DOMContentLoaded', function() {
-	           var elems = document.querySelectorAll('.parallax');
-	           var instances = M.Parallax.init(elems, options);
-	       });
+	   var elems = document.querySelectorAll('.sidenav');
+	   var instances = M.Sidenav.init(elems, options);
+	 });
+	          document.addEventListener('DOMContentLoaded', function() {
+	              var elems = document.querySelectorAll('.slider');
+	              var instances = M.Slider.init(elems, options);
+	          });
+	          document.addEventListener('DOMContentLoaded', function() {
+	              var elems = document.querySelectorAll('.parallax');
+	              var instances = M.Parallax.init(elems, options);
+	          });
 
-		   $(document).ready(function(){
-    $('.sidenav').sidenav();
-  });
+	          $(document).ready(function(){
+	   $('.sidenav').sidenav();
+	 });
 	</script>
 	<title>CSScholars - Home</title>
 </head>
@@ -41,106 +40,141 @@
 	<!--Header-->
 	<header>
 		<!--Test
-		<script>
-			$(document).ready(function(){
-    			$('.sidenav').sidenav();
-  			});
-		</script>
+        <script>
+            $(document).ready(function(){
+                $('.sidenav').sidenav();
+            });
+        </script>
 
-		<nav>
-			<div class="nav-wrapper">
-			  <a href="#!" class="brand-logo">Logo</a>
-			  <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-			  <ul id="nav-mobile" class="right hide-on-med-and-down">
-				<li class="active"><a href="index.html">Home</a></li>
-				<li><a href="info.html">Information</a></li>
-				<li><a href="about.html">About Us</a></li>
-				<li><a href="faq.html">FAQ</a></li>
-				<li><a href="contact.html">Contact Us</a></li>
-			  </ul>
-			</div>
-		  </nav>
+        <nav>
+            <div class="nav-wrapper">
+              <a href="#!" class="brand-logo">Logo</a>
+              <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+              <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="info.html">Information</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+              </ul>
+            </div>
+          </nav>
 
-		  <ul class="sidenav" id="mobile-demo">
-			<li class="active"><a href="index.html">Home</a></li>
-			<li><a href="info.html">Information</a></li>
-			<li><a href="about.html">About Us</a></li>
-			<li><a href="faq.html">FAQ</a></li>
-			<li><a href="contact.html">Contact Us</a></li>
-		  </ul>
-		  End Test-->
+          <ul class="sidenav" id="mobile-demo">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="info.html">Information</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+          End Test-->
 		<nav class="blue lighten-3">
 			<div class="nav-wrapper">
-				<a class="brand-logo" href="index.html"><h5 class="black-text">CSScholars</h5></a><a class="sidenav-trigger dropdown-trigger" data-activates="mobile-dropdown" href="#"><i class="material-icons black-text activator">menu</i></a>
+				<a class="brand-logo" href="index.html">
+				<h5 class="black-text">CSScholars</h5></a><a class="sidenav-trigger dropdown-trigger" data-activates="mobile-dropdown" href="#"><i class="material-icons black-text activator">menu</i></a>
 				<ul class="right hide-on-med-and-down">
 					<li>
-						<a href="index.html" class="active"><h5 class="black-text">Home</h5></a>
+						<a class="active" href="index.html">
+						<h5 class="black-text">Home</h5></a>
 					</li>
 					<li>
-						<a href="info.html" target="_blank"><h5 class="black-text">Information</h5></a>
+						<a href="info.html">
+						<h5 class="black-text">Information</h5></a>
 					</li>
 					<li>
-						<a href="about.html" target="_blank"><h5 class="black-text">About Us</h5></a>
+						<a href="about.html">
+						<h5 class="black-text">About Us</h5></a>
 					</li>
 					<li>
-						<a href="faq.html" target="_blank"><h5 class="black-text">FAQ</h5></a>
+						<a href="faq.html">
+						<h5 class="black-text">FAQ</h5></a>
 					</li>
 					<li>
-						<a href="contact.html" target="_blank"><h5 class="black-text">Contact Us</h5></a>
+						<a href="contact.html">
+						<h5 class="black-text">Contact Us</h5></a>
 					</li>
 				</ul>
-			</div>
-			<!--Not working-->
-		<ul class="sidenav dropdown-content" id="mobile-dropdown">
-			<li>
-				<a href="index.html" class="active"><h5 class="black-text">Home</h5></a>
-			</li>
-			<li>
-				<a href="info.html" target="_blank"><h5 class="black-text">Information</h5></a>
-			</li>
-			<li>
-				<a href="about.html" target="_blank"><h5 class="black-text">About Us</h5></a>
-			</li>
-			<li>
-				<a href="faq.html" target="_blank"><h5 class="black-text">FAQ</h5></a>
-			</li>
-			<li>
-				<a href="contact.html" target="_blank"><h5 class="black-text">Contact Us</h5></a>
-			</li>
-		</ul>
-	</header>
-	<!--Cover Image-->
-	<img alt="" id="top" class="responsive-img" src="/img/AI_pic_17.jpg" width="100%">
-	<!--Description-->
+			</div><!--Not working-->
+			<ul class="sidenav dropdown-content" id="mobile-dropdown">
+				<li>
+					<a class="active" href="index.html">
+					<h5 class="black-text">Home</h5></a>
+				</li>
+				<li>
+					<a href="info.html">
+					<h5 class="black-text">Information</h5></a>
+				</li>
+				<li>
+					<a href="about.html">
+					<h5 class="black-text">About Us</h5></a>
+				</li>
+				<li>
+					<a href="faq.html">
+					<h5 class="black-text">FAQ</h5></a>
+				</li>
+				<li>
+					<a href="contact.html">
+					<h5 class="black-text">Contact Us</h5></a>
+				</li>
+			</ul>
+		</nav>
+	</header><!--Cover Image-->
+	<img alt="" class="responsive-img" id="top" src="/img/AI_pic_17.jpg" width="100%"> <!--Description-->
 	<div class="container">
-		<a href="info.html" :hover><h1 class="blue-text text-lighten-3">What is AI?</h1></a>
+		<a href="info.html">
+		<h1 class="blue-text text-lighten-3">What is AI?</h1></a>
 		<p class="white-text flow-text">Artificial intelligence (AI) is the ability of a computer or a robot controlled by a computer to do tasks that are usually done by humans because they require human intelligence and discernment. Although there are no AIs that can perform the wide variety of tasks an ordinary human can do, some AIs can match humans in specific tasks. (Copeland)</p>
-	</div>
-	<br>
+	</div><br>
 	<!--Topics-->
 	<div class="container white-text">
-	<h2 class="blue-text text-lighten-3">Topics of Interest</h2>
-	<table>
-        <tbody>
-          <tr>
-            <td><a href="/info.html/#education" class="topics white-text" :hover><h5>Academics</h5></a></td>
-			<td><a href="/info.html" class="topics white-text" :hover><h5>Art</h5></a></td>
-			<td><a href="/info.html" class="topics white-text" :hover><h5>Cybersecurity</h5></a></td>
-          </tr>
-          <tr>
-            <td><a href="/info.html" class="topics white-text" :hover><h5>Education</h5></a></td>
-			<td><a href="/info.html" class="topics white-text" :hover><h5>Environment</h5></a></td>
-			<td><a href="/info.html" class="topics white-text" :hover><h5>Finance</h5></a></td>
-          </tr>
-          <tr>
-            <td><a href="/info.html" class="topics white-text" :hover><h5>Games</h5></a></td>
-			<td><a href="/info.html" class="topics white-text" :hover><h5>Personal Life</h5></a></td>
-			<td><a href="/info.html" class="topics white-text" :hover><h5>Work</h5></a></td>
-          </tr>
-        </tbody>
-      </table>
-	  </div>
-	  <br>
+		<h2 class="blue-text text-lighten-3">Topics of Interest</h2>
+		<table>
+			<tbody>
+				<tr>
+					<td>
+						<a class="topics white-text" href="/info.html#education" target="_blank">
+						<h5>Academics</h5></a>
+					</td>
+					<td>
+						<a class="topics white-text" href="/info.html#art" target="_blank">
+						<h5>Art</h5></a>
+					</td>
+					<td>
+						<a class="topics white-text" href="/info.html#cybersecurity" target="_blank">
+						<h5>Cybersecurity</h5></a>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<a class="topics white-text" href="/info.html#education" target="_blank">
+						<h5>Education</h5></a>
+					</td>
+					<td>
+						<a class="topics white-text" href="/info.html#environment" target="_blank">
+						<h5>Environment</h5></a>
+					</td>
+					<td>
+						<a class="topics white-text" href="/info.html#finance" target="_blank">
+						<h5>Finance</h5></a>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<a class="topics white-text" href="/info.html#art" target="_blank">
+						<h5>Games</h5></a>
+					</td>
+					<td>
+						<a class="topics white-text" href="/info.html#life" target="_blank">
+						<h5>Personal Life</h5></a>
+					</td>
+					<td>
+						<a class="topics white-text" href="/info.html#work" target="_blank">
+						<h5>Work</h5></a>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div><br>
 	<!--Slider-->
 	<div class="slider">
 		<ul class="slides">
@@ -148,107 +182,111 @@
 				<img src="/img/AI_pic_13.jpg">
 				<div class="caption left-align">
 					<h3>Cybersecurity</h3>
-          			<h5 class="white-text">Will AI evolve to perpetuate or<br>prevent cybercrime?</h5>
+					<h5 class="white-text">Will AI evolve to perpetuate or<br>
+					prevent cybercrime?</h5>
 				</div>
 			</li>
 			<li>
 				<img src="/img/AI_pic_12.jpg">
 				<div class="caption right-align">
 					<h3 class="white-text">Personal Life</h3>
-          			<h5 class="white-text">AI effects us all,<br>one way or another.</h5>
+					<h5 class="white-text">AI effects us all,<br>
+					one way or another.</h5>
 				</div>
 			</li>
 			<li>
 				<img src="/img/AI_pic_5.jpg">
 				<div class="caption left-align">
 					<h3 class="white-text">Finance</h3>
-          			<h5 class="white-text">The business of tomorrow<br>is AI.</h5>
+					<h5 class="white-text">The business of tomorrow<br>
+					is AI.</h5>
 				</div>
 			</li>
 			<li>
 				<img src="/img/AI_pic_14.jpg">
 				<div class="caption center-align">
-					<h3>No one knows for sure what AI will bring. </h3>
-          			<h5 class="white-text">But we're working to find out!</h5>
+					<h3>No one knows for sure what AI will bring.</h3>
+					<h5 class="white-text">But we're working to find out!</h5>
 				</div>
 			</li>
 		</ul>
-	</div>
-	<!--Import jQuery before materialize.js-->
+	</div><!--Import jQuery before materialize.js-->
 	<script src="https://code.jquery.com/jquery-2.1.1.min.js" type="text/javascript">
-	</script> 
-	<!-- Compiled and minified JavaScript -->
+	</script> <!-- Compiled and minified JavaScript -->
 	 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js">
-	</script> 
-	<!--Materializecss Slider-->
+	</script> <!--Materializecss Slider-->
 	 
 	<script>
-	         $(document).ready(function () {
-	             $('.slider').slider({full_width: true});
-	         });
-	</script> 
-		<!--Footer-->
+	            $(document).ready(function () {
+	                $('.slider').slider({full_width: true});
+	            });
+	</script> <!--Footer-->
 	<div class="container">
 		<footer class="page-footer black">
 			<div class="row">
 				<div class="col l6 s12">
-					<a href="index.html" :hover><h2 class="blue-text text-lighten-3">CSScholars</h2></a>
+					<a href="index.html">
+					<h2 class="blue-text text-lighten-3">CSScholars</h2></a>
 					<h5 class="white-text">Preparing for the next stage of humanity</h5>
 				</div>
-				<div class="col l4 offset-l2 s12">
-					<ul class="right">
-						<li>
-							<a href="index.html" target="_blank">
-							<h5 class="blue-text text-lighten-3">Home</h5></a>
-						</li>
-						<li>
-							<a href="faq.html" target="_blank">
-							<h5 class="blue-text text-lighten-3">FAQ</h5></a>
-						</li>
-						<li>
-							<a href="info.html" target="_blank">
-							<h5 class="blue-text text-lighten-3">Information</h5></a>
-						</li>
-						<li>
-							<a href="contact.html" target="_blank">
-							<h5 class="blue-text text-lighten-3">Contact Us</h5></a>
-						</li>
-						<li>
-							<a href="about.html">
-							<h5 class="blue-text text-lighten-3">About Us</h5></a>
-						</li>
-						<li>
-							<a href="" target="_blank">
-							<h5 class="blue-text text-lighten-3">Sources</h5></a>
-						</li>
-					</ul>
+				<div class="row col l4 offset-l2 s12">
+					<table class="left">
+						<tr>
+							<td>
+								<a href="index.html">
+								<h5 class="blue-text text-lighten-3">Home</h5></a>
+							</td>
+							<td>
+								<a href="faq.html">
+								<h5 class="blue-text text-lighten-3">FAQ</h5></a>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<a href="info.html">
+								<h5 class="blue-text text-lighten-3">Information</h5></a>
+							</td>
+							<td>
+								<a href="contact.html">
+								<h5 class="blue-text text-lighten-3">Contact Us</h5></a>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<a href="about.html">
+								<h5 class="blue-text text-lighten-3">About Us</h5></a>
+							</td>
+							<td>
+								<a href="/img/Citations.pdf" target="_blank">
+								<h5 class="blue-text text-lighten-3">Sources</h5></a>
+							</td>
+						</tr>
+					</table>
+				</div><!--Social Media-->
+				<div class="row">
+					<table class="icons">
+						<tr>
+							<td>
+								<a class="fa fa-instagram" href="https://www.instagram.com/"></a>
+							</td>
+							<td>
+								<a class="fa fa-facebook" href="https://www.facebook.com/"></a>
+							</td>
+							<td>
+								<a class="fa fa-linkedin" href="https://www.linkedin.com/feed/"></a>
+							</td>
+						</tr>
+					</table>
+				</div>
+				<div>
+					<h5 class="white-text left">Copyright &copy; 2023 CSScholars - All Rights Reserved</h5>
 				</div>
 			</div>
-			
-			<!--Social Media-->
-			<div class="container">
-			<table class="icons">
-				<tr>
-					<td>
-						<a class="fa fa-instagram" float="left" href="https://www.instagram.com/"></a>
-					</td>
-					<td>
-						<a class="fa fa-facebook" float="center" href="https://www.facebook.com/"></a>
-					</td>
-					<td>
-						<a class="fa fa-linkedin" float="right" href="https://www.linkedin.com/feed/"></a>
-					</td>
-				</tr>
-			</table>
-		</div>
-	<div class="black footer-copyright">
-		<div class="container">
-			<h5 class="white-text">Copyright &copy; 2023 CSScholars - All Rights Reserved</h5>
-		</div>
+		</footer>
 	</div>
 	<div class="sticky">
-		<a class="sticky btn-floating blue lighten-3" href="#top"><i class="material-icons">arrow_upward</i></a> 
-		</div>
+		<a class="sticky btn-floating blue lighten-3" href="#top"><i class="material-icons">arrow_upward</i></a>
+	</div>
 </body>
 </html>

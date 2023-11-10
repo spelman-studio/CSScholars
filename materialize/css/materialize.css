@@ -2326,12 +2326,12 @@ ul.staggered-list li {
 	}
 }
 .page-footer {
-	padding-top: 20px;
+	padding-top: 5%;
 	color: #fff;
 	background-color: #000;
 }
 .page-footer .footer-copyright {
-	overflow: hidden;
+	overflow: inherit;
 	min-height: 50px;
 	display: -webkit-box;
 	display: -webkit-flex;
@@ -3744,6 +3744,7 @@ h2 {
 	margin: 2.3733333333rem 0 1.424rem 0;
 }
 h3 {
+	/*make about us text responsive but also big? Not working, tried declaring font-size !important, but made flow-text unresponsive*/
 	font-size: 2.92rem;
 	line-height: 110%;
 	margin: 1.9466666667rem 0 1.168rem 0;
@@ -4773,7 +4774,7 @@ body.keyboard-focused .dropdown-content li:focus {
 	border-radius: 0 0 2px 2px;
 	background-color: #fafafa;
 	padding: 4px 6px;
-	height: 56px;
+	height: auto;
 	width: 100%;
 	text-align: right;
 }
@@ -7125,9 +7126,9 @@ input[type=range]::-ms-thumb {
 /* Footer */
 
 .datepicker-footer {
-	width: 280px;
+	width: 100%;
 	margin: 0 auto;
-	padding-bottom: 5px;
+	padding-bottom: 2px;
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: -ms-flexbox;

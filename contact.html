@@ -13,32 +13,31 @@
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<script src="js/materialize.min.js" type="text/javascript">
-		document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.sidenav');
-    var instances = M.Sidenav.init(elems, options);
-  });
 	       document.addEventListener('DOMContentLoaded', function() {
-	           var elems = document.querySelectorAll('.slider');
-	           var instances = M.Slider.init(elems, options);
-	       });
-	       document.addEventListener('DOMContentLoaded', function() {
-	           var elems = document.querySelectorAll('.parallax');
-	           var instances = M.Parallax.init(elems, options);
-	       });
-		</script>
-		   <!--function initialize() {
+	   var elems = document.querySelectorAll('.sidenav');
+	   var instances = M.Sidenav.init(elems, options);
+	 });
+	          document.addEventListener('DOMContentLoaded', function() {
+	              var elems = document.querySelectorAll('.slider');
+	              var instances = M.Slider.init(elems, options);
+	          });
+	          document.addEventListener('DOMContentLoaded', function() {
+	              var elems = document.querySelectorAll('.parallax');
+	              var instances = M.Parallax.init(elems, options);
+	          });
+	</script><!--function initialize() {
 
-				var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
+                var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
 
-				// Resize stuff...
-				google.maps.event.addDomListener(window, "resize", function() {
-  					var center = map.getCenter();
-  					google.maps.event.trigger(map, "resize");
-  					map.setCenter(center); 
-				});
+                // Resize stuff...
+                google.maps.event.addDomListener(window, "resize", function() {
+                    var center = map.getCenter();
+                    google.maps.event.trigger(map, "resize");
+                    map.setCenter(center); 
+                });
 
-			}
-	</script>-->
+            }
+    </script>-->
 	<title>CSScholars - Home</title>
 </head>
 <body class="black">
@@ -46,170 +45,172 @@
 	<header>
 		<nav class="blue lighten-3">
 			<div class="nav-wrapper">
-				<a class="brand-logo" href="index.html"><h5 class="black-text">CSScholars</h5></a><a class="sidenav-trigger dropdown-trigger" data-activates="mobile-dropdown" href="#"><i class="material-icons black-text activator">menu</i></a>
+				<a class="brand-logo" href="index.html">
+				<h5 class="black-text">CSScholars</h5></a><a class="sidenav-trigger dropdown-trigger" data-activates="mobile-dropdown" href="#"><i class="material-icons black-text activator">menu</i></a>
 				<ul class="right hide-on-med-and-down">
 					<li>
-						<a href="index.html"><h5 class="black-text">Home</h5></a>
+						<a class="active" href="index.html">
+						<h5 class="black-text">Home</h5></a>
 					</li>
 					<li>
-						<a href="info.html" target="_blank"><h5 class="black-text">Information</h5></a>
+						<a href="info.html">
+						<h5 class="black-text">Information</h5></a>
 					</li>
 					<li>
-						<a href="about.html" target="_blank"><h5 class="black-text">About Us</h5></a>
+						<a href="about.html">
+						<h5 class="black-text">About Us</h5></a>
 					</li>
 					<li>
-						<a href="faq.html" target="_blank"><h5 class="black-text">FAQ</h5></a>
+						<a href="faq.html">
+						<h5 class="black-text">FAQ</h5></a>
 					</li>
 					<li>
-						<a href="contact.html" class="active"><h5 class="black-text">Contact Us</h5></a>
+						<a href="contact.html">
+						<h5 class="black-text">Contact Us</h5></a>
 					</li>
 				</ul>
-			</div>
-			<!--Not working-->
-		<ul class="sidenav dropdown-content" id="mobile-dropdown">
-			<li>
-				<a href="index.html"><h5 class="black-text">Home</h5></a>
-			</li>
-			<li>
-				<a href="info.html" target="_blank"><h5 class="black-text">Information</h5></a>
-			</li>
-			<li>
-				<a href="about.html" target="_blank"><h5 class="black-text">About Us</h5></a>
-			</li>
-			<li>
-				<a href="faq.html" target="_blank"><h5 class="black-text">FAQ</h5></a>
-			</li>
-			<li>
-				<a href="contact.html" class="active"><h5 class="black-text">Contact Us</h5></a>
-			</li>
-		</ul>
+			</div><!--Not working-->
+			<ul class="sidenav dropdown-content" id="mobile-dropdown">
+				<li>
+					<a class="active" href="index.html">
+					<h5 class="black-text">Home</h5></a>
+				</li>
+				<li>
+					<a href="info.html">
+					<h5 class="black-text">Information</h5></a>
+				</li>
+				<li>
+					<a href="about.html">
+					<h5 class="black-text">About Us</h5></a>
+				</li>
+				<li>
+					<a href="faq.html">
+					<h5 class="black-text">FAQ</h5></a>
+				</li>
+				<li>
+					<a href="contact.html">
+					<h5 class="black-text">Contact Us</h5></a>
+				</li>
+			</ul>
+		</nav>
 	</header>
-
 	<div class="container">
-	<h1 id="top" class="blue-text text-lighten-3">Contact Us</h1>
-	<hr>
-	<!--Website-->
-	<h5 class="white-text">janespelmanstudio@gmail.com</h5>
-	<!--Phone-->
-	<h5 class="white-text">(614) 758-3448</h5>
-	<!--Location-->
-	<h5 class="white-text">Miami University, Oxford, Ohio:</h5>
-	<div class="map">
-		<iframe allowfullscreen src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24625.374827056843!2d-84.7705796485688!3d39.510610856140616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88403c490fb6d3ad%3A0x1d5080263c547b36!2sMiami%20University%2C%20Oxford%2C%20OH%2045056!5e0!3m2!1sen!2sus!4v1696125808445!5m2!1sen!2sus" style="border:0;"></iframe>
-	</div>
+		<h1 class="blue-text text-lighten-3" id="top">Contact Us</h1>
+		<hr>
+		<!--Website-->
+		<h5 class="white-text">janespelmanstudio@gmail.com</h5><!--Phone-->
+		<h5 class="white-text">(614) 758-3448</h5><!--Location-->
+		<h5 class="white-text">Miami University, Oxford, Ohio:</h5>
+		<div class="map">
+			<iframe allowfullscreen src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24625.374827056843!2d-84.7705796485688!3d39.510610856140616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88403c490fb6d3ad%3A0x1d5080263c547b36!2sMiami%20University%2C%20Oxford%2C%20OH%2045056!5e0!3m2!1sen!2sus!4v1696125808445!5m2!1sen!2sus" style="border:0;"></iframe>
+		</div>
 	</div>
 	<div class="container">
 		<br>
 		<h3 class="blue-text text-lighten-3">Contact Form</h3>
-	<form class="col s12">
+		<form class="col s12">
 			<div class="row">
 				<form class="col s12">
-				  <div class="row">
-					<div class="input-field col s6">
-					  <i class="material-icons white-text prefix">person</i>
-					  <input id="icon_prefix" type="text" class="validate">
-					  <label for="icon_prefix">First Name</label>
+					<div class="row">
+						<div class="input-field col s6">
+							<i class="material-icons white-text prefix">person</i> <input class="validate" id="icon_prefix" type="text"> <label for="icon_prefix">First Name</label>
+						</div>
+						<div class="input-field col s6">
+							<i class="material-icons white-text prefix">people</i> <input class="validate" id="last_name" type="text"> <label for="last_name">Last Name</label>
+						</div>
 					</div>
-			<div class="input-field col s6">
-				<i class="material-icons white-text prefix">people</i>
-			  <input id="last_name" type="text" class="validate">
-			  <label for="last_name">Last Name</label>
+					<div class="row">
+						<div class="input-field col s6">
+							<i class="material-icons white-text prefix">phone</i> <input class="validate" id="icon_telephone" type="tel"> <label for="icon_telephone">Telephone</label>
+						</div>
+						<div class="input-field col s6">
+							<i class="material-icons white-text prefix">mail</i> <input class="validate" id="icon_mail" type="text"> <label for="icon_mail">Email</label>
+						</div>
+					</div>
+					<div class="row">
+						<form class="col s12">
+							<div class="row">
+								<div class="input-field col s12">
+									<i class="material-icons white-text prefix">mode_edit</i> 
+									<textarea class="materialize-textarea" id="textarea1"></textarea> <label for="textarea1">Message</label>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="row">
+						<div class="col s12">
+							<button class="btn waves-effect waves-light blue lighten-3 black-text" name="action" type="submit">Submit <i class="material-icons right">send</i></button>
+						</div>
+					</div>
+				</form>
 			</div>
-		  </div>
-		  <div class="row">
-			<div class="input-field col s6">
-				<i class="material-icons white-text prefix">phone</i>
-				<input id="icon_telephone" type="tel" class="validate">
-				<label for="icon_telephone">Telephone</label>
-			  </div>
-			<div class="input-field col s6">
-				<i class="material-icons white-text prefix">mail</i>
-				<input id="icon_mail" type="text" class="validate">
-				<label for="icon_mail">Email</label>
-			  </div>
-		  </div>
-		  <div class="row">
-			<form class="col s12">
-			  <div class="row">
-				<div class="input-field col s12">
-					<i class="material-icons white-text prefix">mode_edit</i>
-				  <textarea id="textarea1" class="materialize-textarea"></textarea>
-				  <label for="textarea1">Message</label>
-				</div>
-			  </div>
-			</form>
-		  </div>
-		  <div class="row">
-			<div class="col s12">
-				<button class="btn waves-effect waves-light blue lighten-3 black-text" type="submit" name="action">Submit
-					<i class="material-icons right">send</i>
-				  </button>
-			</div>
-		  </div>
 		</form>
-	  </div>
-	</div>
-	<!--Footer-->
+	</div><!--Footer-->
 	<div class="container">
 		<footer class="page-footer black">
 			<div class="row">
 				<div class="col l6 s12">
-					<a href="index.html" :hover><h2 class="blue-text text-lighten-3">CSScholars</h2></a>
+					<a href="index.html">
+					<h2 class="blue-text text-lighten-3">CSScholars</h2></a>
 					<h5 class="white-text">Preparing for the next stage of humanity</h5>
 				</div>
-				<div class="col l4 offset-l2 s12">
-					<ul class="right">
-						<li>
-							<a href="index.html">
-							<h5 class="blue-text text-lighten-3">Home</h5></a>
-						</li>
-						<li>
-							<a href="faq.html" target="_blank">
-							<h5 class="blue-text text-lighten-3">FAQ</h5></a>
-						</li>
-						<li>
-							<a href="info.html" target="_blank">
-							<h5 class="blue-text text-lighten-3">Information</h5></a>
-						</li>
-						<li>
-							<a href="contact.html" target="_blank">
-							<h5 class="blue-text text-lighten-3">Contact Us</h5></a>
-						</li>
-						<li>
-							<a href="about.html">
-							<h5 class="blue-text text-lighten-3">About Us</h5></a>
-						</li>
-						<li>
-							<a href="" target="_blank">
-							<h5 class="blue-text text-lighten-3">Sources</h5></a>
-						</li>
-					</ul>
+				<div class="row col l4 offset-l2 s12">
+					<table class="left">
+						<tr>
+							<td>
+								<a href="index.html">
+								<h5 class="blue-text text-lighten-3">Home</h5></a>
+							</td>
+							<td>
+								<a href="faq.html">
+								<h5 class="blue-text text-lighten-3">FAQ</h5></a>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<a href="info.html">
+								<h5 class="blue-text text-lighten-3">Information</h5></a>
+							</td>
+							<td>
+								<a href="contact.html">
+								<h5 class="blue-text text-lighten-3">Contact Us</h5></a>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<a href="about.html">
+								<h5 class="blue-text text-lighten-3">About Us</h5></a>
+							</td>
+							<td>
+								<a href="/img/Citations.pdf" target="_blank">
+								<h5 class="blue-text text-lighten-3">Sources</h5></a>
+							</td>
+						</tr>
+					</table>
+				</div><!--Social Media-->
+				<div class="row">
+					<table class="icons">
+						<tr>
+							<td>
+								<a class="fa fa-instagram" href="https://www.instagram.com/"></a>
+							</td>
+							<td>
+								<a class="fa fa-facebook" href="https://www.facebook.com/"></a>
+							</td>
+							<td>
+								<a class="fa fa-linkedin" href="https://www.linkedin.com/feed/"></a>
+							</td>
+						</tr>
+					</table>
+				</div>
+				<div>
+					<h5 class="white-text left">Copyright &copy; 2023 CSScholars - All Rights Reserved</h5>
 				</div>
 			</div>
-			
-			<!--Social Media-->
-			<div class="container">
-			<table class="icons">
-				<tr>
-					<td>
-						<a class="fa fa-instagram" float="left" href="https://www.instagram.com/"></a>
-					</td>
-					<td>
-						<a class="fa fa-facebook" float="center" href="https://www.facebook.com/"></a>
-					</td>
-					<td>
-						<a class="fa fa-linkedin" float="right" href="https://www.linkedin.com/feed/"></a>
-					</td>
-				</tr>
-			</table>
-		</div>
-	<div class="black footer-copyright">
-		<div class="container">
-			<h5 class="white-text">Copyright &copy; 2023 CSScholars - All Rights Reserved</h5>
-		</div>
+		</footer>
 	</div>
 	<div class="sticky">
-		<a class="sticky btn-floating blue lighten-3" href="#top"><i class="material-icons">arrow_upward</i></a> 
-		</div>
+		<a class="sticky btn-floating blue lighten-3" href="#top"><i class="material-icons">arrow_upward</i></a>
+	</div>
 </body>
 </html>
