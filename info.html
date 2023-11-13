@@ -1,99 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<meta content="AI, Technology, Project, Generative AI" name="keywords">
-	<meta content="Alex Abreu, Sean Alexander, Sam Bryant, Jordyn Pryor, Jane Spelman, Garland Weaver" name="author">
-	<meta content="width=device-width, initial-scale=1.0" name="viewport">
-	<link href="main.css" rel="stylesheet">
-	<link href="/materialize/css/materialize.css" rel="stylesheet">
-	<link href="/materialize/css/materialize.min.css" rel="stylesheet">
-	<link href="/materialize/js/materialize.js" rel="stylesheet">
-	<link href="/materialize/js/materialize.min.js" rel="stylesheet">
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<script src="js/materialize.min.js" type="text/javascript">
-	       document.addEventListener('DOMContentLoaded', function() {
-	   var elems = document.querySelectorAll('.sidenav');
-	   var instances = M.Sidenav.init(elems, options);
-	 });
-	          document.addEventListener('DOMContentLoaded', function() {
-	              var elems = document.querySelectorAll('.slider');
-	              var instances = M.Slider.init(elems, options);
-	          });
-	          document.addEventListener('DOMContentLoaded', function() {
-	              var elems = document.querySelectorAll('.parallax');
-	              var instances = M.Parallax.init(elems, options);
-	          });
-	          $(document).ready(function(){
-	   $('.collapsible').collapsible({
-	     accordion : true
-	   });
-	 });
-	</script>
-	<title>CSScholars - Home</title>
+    <meta charset="UTF-8">
+    <meta content="AI, Technology, Project, Generative AI" name="keywords">
+    <meta content="Alex Abreu, Sean Alexander, Sam Bryant, Jordyn Pryor, Jane Spelman, Garland Weaver" name="author">
+    <link href="main.css" rel="stylesheet">
+    <title>CSScholars - Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!-- JavaScript/jQuery Function Initialization inside <script> </script>  -->
+    <script>
+        $(document).ready(function() {
+            $('.sidenav').sidenav();
+            $('.parallax').parallax();
+            $('.slider').slider();
+
+        });
+
+    </script>
 </head>
+
 <body class="black">
-	<!--Header-->
-	<header>
-		<nav class="blue lighten-3">
-			<div class="nav-wrapper">
-				<a class="brand-logo" href="index.html">
-				<h5 class="black-text">CSScholars</h5></a><a class="sidenav-trigger dropdown-trigger" data-activates="mobile-dropdown" href="#"><i class="material-icons black-text activator">menu</i></a>
-				<ul class="right hide-on-med-and-down">
-					<li>
-						<a class="active" href="index.html">
-						<h5 class="black-text">Home</h5></a>
-					</li>
-					<li>
-						<a href="info.html">
-						<h5 class="black-text">Information</h5></a>
-					</li>
-					<li>
-						<a href="about.html">
-						<h5 class="black-text">About Us</h5></a>
-					</li>
-					<li>
-						<a href="faq.html">
-						<h5 class="black-text">FAQ</h5></a>
-					</li>
-					<li>
-						<a href="contact.html">
-						<h5 class="black-text">Contact Us</h5></a>
-					</li>
-				</ul>
-			</div><!--Not working-->
-			<ul class="sidenav dropdown-content" id="mobile-dropdown">
-				<li>
-					<a class="active" href="index.html">
-					<h5 class="black-text">Home</h5></a>
-				</li>
-				<li>
-					<a href="info.html">
-					<h5 class="black-text">Information</h5></a>
-				</li>
-				<li>
-					<a href="about.html">
-					<h5 class="black-text">About Us</h5></a>
-				</li>
-				<li>
-					<a href="faq.html">
-					<h5 class="black-text">FAQ</h5></a>
-				</li>
-				<li>
-					<a href="contact.html">
-					<h5 class="black-text">Contact Us</h5></a>
-				</li>
-			</ul>
-		</nav>
-	</header><!--Add collapsible element for text underneath-->
+    <nav class="blue lighten-3">
+        <div class="nav-wrapper blue lighten-3">
+            <a href="index.html" class="brand-logo black-text">
+                <h5>CSScholars</h5>
+            </a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li>
+                    <a class="active" href="index.html">
+                        <h5 class="black-text">Home</h5>
+                    </a>
+                </li>
+                <li>
+                    <a href="info.html">
+                        <h5 class="black-text">Information</h5>
+                    </a>
+                </li>
+                <li>
+                    <a href="about.html">
+                        <h5 class="black-text">About Us</h5>
+                    </a>
+                </li>
+                <li>
+                    <a href="faq.html">
+                        <h5 class="black-text">FAQ</h5>
+                    </a>
+                </li>
+                <li>
+                    <a href="contact.html">
+                        <h5 class="black-text">Contact Us</h5>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li>
+            <a class="active" href="index.html">
+                <h5 class="black-text">Home</h5>
+            </a>
+        </li>
+        <li>
+            <a href="info.html">
+                <h5 class="black-text">Information</h5>
+            </a>
+        </li>
+        <li>
+            <a href="about.html">
+                <h5 class="black-text">About Us</h5>
+            </a>
+        </li>
+        <li>
+            <a href="faq.html">
+                <h5 class="black-text">FAQ</h5>
+            </a>
+        </li>
+        <li>
+            <a href="contact.html">
+                <h5 class="black-text">Contact Us</h5>
+            </a>
+        </li>
+    </ul>
+	<!--Add collapsible element for text underneath-->
 	<div class="container">
 		<h1 class="blue-text text-lighten-3" id="top">Artificial Intelligence</h1>
 		<hr>
 		<div class="white-text">
 			<h3 id="environment">How is AI Changing the Environment?</h3>
-			<h4 class="flow-text">Though at first glance generative AI seems like an entirely digital creation,it does in fact have an impact upon the physical world (Kumar). The development and maintenance of these systems with all of the data and servers they entail has been massively energy intensive (Kumar). Data centers, or physical facilities which store and manage information for communications technology, account for a collective 2-3% of greenhouse gas emissions (Kumar). Though the environmental impact of data centers fueling AI itself has not yet been massive, as systems such as ChatGPT and Midjourney continue to gain mainstream appeal and usage the carbon footprint of AI will see exponential growth (Kumar). Given this information, it is critical to take the environmental impacts of AI into consideration when employing its usage.</h4>
-			<h3 id="work">AI and it's Role in the Workforce.</h3>
+			<h4 class="flow-text">Though at first glance generative AI seems like an entirely digital creation, it does in fact have an impact upon the physical world (Kumar). The development and maintenance of these systems with all of the data and servers they entail has been massively energy intensive (Kumar). Data centers, or physical facilities which store and manage information for communications technology, account for a collective 2-3% of greenhouse gas emissions (Kumar). Though the environmental impact of data centers fueling AI itself has not yet been massive, as systems such as ChatGPT and Midjourney continue to gain mainstream appeal and usage the carbon footprint of AI will see exponential growth (Kumar). Given this information, it is critical to take the environmental impacts of AI into consideration when employing its usage.</h4>
+			<h3 id="work">AI and it's Role in the Workforce</h3>
 			<h4 class="flow-text">Generative AI has led to a number of growing concerns and debates pertaining to its use in professional settings, particularly regarding its use in fields traditionally done by human professionals (Sammer). One extraordinarily relevant example of this is the ongoing WGA/SAG-AFTRA strike in Hollywood, in which one of the key points of debate has been the use of AI in the writer’s room for film and television production as well as to replicate actor’s likenesses (Sammer).</h4>
 			<h3 id="finance">AI and Finance</h3>
 			<h4 class="flow-text">Finance as an field has historically always invested in new technologies far ahead of most other industries, a trend which has unsurprisingly continued with AI (Desai). The need for data processing that lies at the core of most companies involved with finance lies distinctly with the capabilities of recent generative AI models, with possibilities ranging from developing short-term strategies for hedge funds to determining the most effective ways for individuals to manage assets over a given period (Desai). The abundant and fast-changing data of finance can be analyzed and managed with a speed and efficiency no human is capable of when AI is put into play (Desai). This will likely result in AI becoming a dominant force in the finance industry, determining its “winners” and “loser” with almost frightening speed (Desai).</h4><!--
@@ -119,7 +122,7 @@
             </ul>
         </div>
     -->
-			<h3 id="life">AI and Personal Life.</h3>
+			<h3 id="life">AI and Personal Life</h3>
 			<h4 class="flow-text">Algorithms similar to those which make generative AI possible already fill many aspects of everyday life, and will continue to do so on a much larger scale with the rise of new programs such as ChatGPT (Mihajlovic). Predictive AI is used in everything from recommendations for search engines and streaming services to your personalized ads when using social media (Mihajlovic). Chatbots for customer service as well as entertainment, despite having already existed, continue to improve in efficiency and communicative ability over time thanks to these new programs (Mihajlovic). Generative AI is also being used to improve predictive algorithms for tools such as autofill and “smart emails” as gmail has recently begun using (Mihajlovic). THese AI programs are also useful for navigation, and determining alternative routes much more</h4>
 			<h3 id="education">AI and Education</h3>
 			<h4 class="flow-text">Generative AI has become the center of many debates in the world of academia, particularly as it pertains to the ideas of plagiarism and defining “learning” in a post-AI world (UNESCO). While some educators have expressed growing concerns over AI being abused by students to generate plagiarized work, others have begun to advocate for its use in the realms of education (UNESCO). An increasingly large call has been made to adopt a “human-centered” approach to the usage of AI in education, with students and teachers alike utilizing it as a tool to enhance their own works and ease searches for information and data as opposed to using it as a replacement for developing original work (UNESCO). Some believe that the use of AI in education will better prepare students for a world where it is becoming an increasingly dominant tool, as well as equipping them to develop informed opinions on issues of human rights and human-machine relationships as these AI models continue to become more advanced. Global education policy makers are having these debates even now (UNESCO).</h4>
@@ -128,72 +131,84 @@
 			<h3 id="art">AI and Art</h3>
 			<h4 class="flow-text">One of the largest debates about generative AI has been its usage in developing artwork (Mineo). Many have questioned whether these images even constitute artwork, given that they are not created by human artists (Mineo). These images also raise questions about ethics and copyright, given that AI must be trained on some kind of input in order to be able to generate these works (Mineo). Thus, the question arises whether AI being trained on copyrighted works should be considered an infringement of the aforementioned copyright. From a more philosophical standpoint, there have been concerns that using AI in this manner will prove detrimental to human culture on a larger scale, given that AI is at most only capable of mimicking pre-existing work and does not possess the human emotion, innovation, and adaptability that results in the creation of many new works. Most AI art work is currently a collection of stitched together visual tropes and conventions, and has not advanced to a point of significant originality (Mineo). Concerns have been raised, however, that this state is not far off given its rapid development (Mineo). AI in art poses risks for artists and consumers alike (Mineo).</h4>
 		</div>
-	</div><!--Footer-->
-	<div class="container">
-		<footer class="page-footer black">
-			<div class="row">
-				<div class="col l6 s12">
-					<a href="index.html">
-					<h2 class="blue-text text-lighten-3">CSScholars</h2></a>
-					<h5 class="white-text">Preparing for the next stage of humanity</h5>
-				</div>
-				<div class="row col l4 offset-l2 s12">
-					<table class="left">
-						<tr>
-							<td>
-								<a href="index.html">
-								<h5 class="blue-text text-lighten-3">Home</h5></a>
-							</td>
-							<td>
-								<a href="faq.html">
-								<h5 class="blue-text text-lighten-3">FAQ</h5></a>
-							</td>
-						</tr>
-						<tr>
-							<td>
-								<a href="info.html">
-								<h5 class="blue-text text-lighten-3">Information</h5></a>
-							</td>
-							<td>
-								<a href="contact.html">
-								<h5 class="blue-text text-lighten-3">Contact Us</h5></a>
-							</td>
-						</tr>
-						<tr>
-							<td>
-								<a href="about.html">
-								<h5 class="blue-text text-lighten-3">About Us</h5></a>
-							</td>
-							<td>
-								<a href="/img/Citations.pdf" target="_blank">
-								<h5 class="blue-text text-lighten-3">Sources</h5></a>
-							</td>
-						</tr>
-					</table>
-				</div><!--Social Media-->
-				<div class="row">
-					<table class="icons">
-						<tr>
-							<td>
-								<a class="fa fa-instagram" href="https://www.instagram.com/"></a>
-							</td>
-							<td>
-								<a class="fa fa-facebook" href="https://www.facebook.com/"></a>
-							</td>
-							<td>
-								<a class="fa fa-linkedin" href="https://www.linkedin.com/feed/"></a>
-							</td>
-						</tr>
-					</table>
-				</div>
-				<div>
-					<h5 class="white-text left">Copyright &copy; 2023 CSScholars - All Rights Reserved</h5>
-				</div>
-			</div>
-		</footer>
 	</div>
-	<div class="sticky">
-		<a class="sticky btn-floating blue lighten-3" href="#top"><i class="material-icons">arrow_upward</i></a>
-	</div>
+	<!--Footer-->
+    <br>
+    <hr>
+    <div class="container">
+        <footer class="page-footer black">
+            <div class="row">
+                <div class="col l6 s12">
+                    <a href="index.html">
+                        <h2 class="blue-text text-lighten-3">CSScholars</h2>
+                    </a>
+                    <h5 class="white-text">Preparing for the next stage of humanity</h5>
+                </div>
+                <div class="row col l4 offset-l2 s12">
+                    <table class="left">
+                        <tr>
+                            <td>
+                                <a href="index.html">
+                                    <h5 class="blue-text text-lighten-3">Home</h5>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="faq.html">
+                                    <h5 class="blue-text text-lighten-3">FAQ</h5>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="info.html">
+                                    <h5 class="blue-text text-lighten-3">Information</h5>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="contact.html">
+                                    <h5 class="blue-text text-lighten-3">Contact Us</h5>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="about.html">
+                                    <h5 class="blue-text text-lighten-3">About Us</h5>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="/img/Citations.pdf" target="_blank">
+                                    <h5 class="blue-text text-lighten-3">Sources</h5>
+                                </a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <!--Social Media-->
+                <div class="row">
+                    <table class="icons">
+                        <tr>
+                            <td>
+                                <a class="fa fa-instagram" href="https://www.instagram.com/"></a>
+                            </td>
+                            <td>
+                                <a class="fa fa-facebook" href="https://www.facebook.com/"></a>
+                            </td>
+                            <td>
+                                <a class="fa fa-linkedin" href="https://www.linkedin.com/feed/"></a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div>
+                    <h5 class="white-text left">Copyright &copy; 2023 CSScholars - All Rights Reserved</h5>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <div class="sticky">
+        <a class="sticky btn-floating blue lighten-3" href="#top"><i class="material-icons">arrow_upward</i></a>
+    </div>
 </body>
+
 </html>

@@ -1,124 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<meta content="AI, Technology, Project, Generative AI" name="keywords">
-	<meta content="Alex Abreu, Sean Alexander, Sam Bryant, Jordyn Pryor, Jane Spelman, Garland Weaver" name="author">
-	<meta content="width=device-width, initial-scale=1.0" name="viewport">
-	<link href="main.css" rel="stylesheet">
-	<link href="/materialize/css/materialize.css" rel="stylesheet">
-	<link href="/materialize/css/materialize.min.css" rel="stylesheet">
-	<link href="/materialize/js/materialize.js" rel="stylesheet">
-	<link href="/materialize/js/materialize.min.js" rel="stylesheet">
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"><!-- Compiled and minified CSS -->
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet"><!-- Compiled and minified JavaScript -->
+    <meta charset="UTF-8">
+    <meta content="AI, Technology, Project, Generative AI" name="keywords">
+    <meta content="Alex Abreu, Sean Alexander, Sam Bryant, Jordyn Pryor, Jane Spelman, Garland Weaver" name="author">
+    <link href="main.css" rel="stylesheet">
+    <title>CSScholars - Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
-	</script>
-	<script src="js/materialize.min.js" type="text/javascript">
-	       document.addEventListener('DOMContentLoaded', function() {
-	   var elems = document.querySelectorAll('.sidenav');
-	   var instances = M.Sidenav.init(elems, options);
-	 });
-	          document.addEventListener('DOMContentLoaded', function() {
-	              var elems = document.querySelectorAll('.slider');
-	              var instances = M.Slider.init(elems, options);
-	          });
-	          document.addEventListener('DOMContentLoaded', function() {
-	              var elems = document.querySelectorAll('.parallax');
-	              var instances = M.Parallax.init(elems, options);
-	          });
+    <!-- JavaScript/jQuery Function Initialization inside <script> </script>  -->
+    <script>
+        $(document).ready(function() {
+            $('.sidenav').sidenav();
+            $('.parallax').parallax();
+            $('.slider').slider();
 
-	          $(document).ready(function(){
-	   $('.sidenav').sidenav();
-	 });
-	</script>
-	<title>CSScholars - Home</title>
+        });
+
+    </script>
 </head>
+
 <body class="black">
-	<!--Header-->
-	<header>
-		<!--Test
-        <script>
-            $(document).ready(function(){
-                $('.sidenav').sidenav();
-            });
-        </script>
+    <nav class="blue lighten-3">
+        <div class="nav-wrapper blue lighten-3">
+            <a href="index.html" class="brand-logo black-text">
+                <h5>CSScholars</h5>
+            </a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger black-text"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li>
+                    <a class="active" href="index.html">
+                        <h5 class="black-text">Home</h5>
+                    </a>
+                </li>
+                <li>
+                    <a href="info.html">
+                        <h5 class="black-text">Information</h5>
+                    </a>
+                </li>
+                <li>
+                    <a href="about.html">
+                        <h5 class="black-text">About Us</h5>
+                    </a>
+                </li>
+                <li>
+                    <a href="faq.html">
+                        <h5 class="black-text">FAQ</h5>
+                    </a>
+                </li>
+                <li>
+                    <a href="contact.html">
+                        <h5 class="black-text">Contact Us</h5>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
-        <nav>
-            <div class="nav-wrapper">
-              <a href="#!" class="brand-logo">Logo</a>
-              <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-              <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li class="active"><a href="index.html">Home</a></li>
-                <li><a href="info.html">Information</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="faq.html">FAQ</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-              </ul>
-            </div>
-          </nav>
-
-          <ul class="sidenav" id="mobile-demo">
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="info.html">Information</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="faq.html">FAQ</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-          </ul>
-          End Test-->
-		<nav class="blue lighten-3">
-			<div class="nav-wrapper">
-				<a class="brand-logo" href="index.html">
-				<h5 class="black-text">CSScholars</h5></a><a class="sidenav-trigger dropdown-trigger" data-activates="mobile-dropdown" href="#"><i class="material-icons black-text activator">menu</i></a>
-				<ul class="right hide-on-med-and-down">
-					<li>
-						<a class="active" href="index.html">
-						<h5 class="black-text">Home</h5></a>
-					</li>
-					<li>
-						<a href="info.html">
-						<h5 class="black-text">Information</h5></a>
-					</li>
-					<li>
-						<a href="about.html">
-						<h5 class="black-text">About Us</h5></a>
-					</li>
-					<li>
-						<a href="faq.html">
-						<h5 class="black-text">FAQ</h5></a>
-					</li>
-					<li>
-						<a href="contact.html">
-						<h5 class="black-text">Contact Us</h5></a>
-					</li>
-				</ul>
-			</div><!--Not working-->
-			<ul class="sidenav dropdown-content" id="mobile-dropdown">
-				<li>
-					<a class="active" href="index.html">
-					<h5 class="black-text">Home</h5></a>
-				</li>
-				<li>
-					<a href="info.html">
-					<h5 class="black-text">Information</h5></a>
-				</li>
-				<li>
-					<a href="about.html">
-					<h5 class="black-text">About Us</h5></a>
-				</li>
-				<li>
-					<a href="faq.html">
-					<h5 class="black-text">FAQ</h5></a>
-				</li>
-				<li>
-					<a href="contact.html">
-					<h5 class="black-text">Contact Us</h5></a>
-				</li>
-			</ul>
-		</nav>
-	</header><!--Cover Image-->
+    <ul class="sidenav" id="mobile-demo">
+        <li>
+            <a class="active" href="index.html">
+                <h5 class="black-text">Home</h5>
+            </a>
+        </li>
+        <li>
+            <a href="info.html">
+                <h5 class="black-text">Information</h5>
+            </a>
+        </li>
+        <li>
+            <a href="about.html">
+                <h5 class="black-text">About Us</h5>
+            </a>
+        </li>
+        <li>
+            <a href="faq.html">
+                <h5 class="black-text">FAQ</h5>
+            </a>
+        </li>
+        <li>
+            <a href="contact.html">
+                <h5 class="black-text">Contact Us</h5>
+            </a>
+        </li>
+    </ul>
+	<!--Cover Image-->
 	<img alt="" class="responsive-img" id="top" src="/img/AI_pic_17.jpg" width="100%"> <!--Description-->
 	<div class="container">
 		<a href="info.html">
@@ -221,72 +192,84 @@
 	            $(document).ready(function () {
 	                $('.slider').slider({full_width: true});
 	            });
-	</script> <!--Footer-->
-	<div class="container">
-		<footer class="page-footer black">
-			<div class="row">
-				<div class="col l6 s12">
-					<a href="index.html">
-					<h2 class="blue-text text-lighten-3">CSScholars</h2></a>
-					<h5 class="white-text">Preparing for the next stage of humanity</h5>
-				</div>
-				<div class="row col l4 offset-l2 s12">
-					<table class="left">
-						<tr>
-							<td>
-								<a href="index.html">
-								<h5 class="blue-text text-lighten-3">Home</h5></a>
-							</td>
-							<td>
-								<a href="faq.html">
-								<h5 class="blue-text text-lighten-3">FAQ</h5></a>
-							</td>
-						</tr>
-						<tr>
-							<td>
-								<a href="info.html">
-								<h5 class="blue-text text-lighten-3">Information</h5></a>
-							</td>
-							<td>
-								<a href="contact.html">
-								<h5 class="blue-text text-lighten-3">Contact Us</h5></a>
-							</td>
-						</tr>
-						<tr>
-							<td>
-								<a href="about.html">
-								<h5 class="blue-text text-lighten-3">About Us</h5></a>
-							</td>
-							<td>
-								<a href="/img/Citations.pdf" target="_blank">
-								<h5 class="blue-text text-lighten-3">Sources</h5></a>
-							</td>
-						</tr>
-					</table>
-				</div><!--Social Media-->
-				<div class="row">
-					<table class="icons">
-						<tr>
-							<td>
-								<a class="fa fa-instagram" href="https://www.instagram.com/"></a>
-							</td>
-							<td>
-								<a class="fa fa-facebook" href="https://www.facebook.com/"></a>
-							</td>
-							<td>
-								<a class="fa fa-linkedin" href="https://www.linkedin.com/feed/"></a>
-							</td>
-						</tr>
-					</table>
-				</div>
-				<div>
-					<h5 class="white-text left">Copyright &copy; 2023 CSScholars - All Rights Reserved</h5>
-				</div>
-			</div>
-		</footer>
-	</div>
-	<div class="sticky">
-		<a class="sticky btn-floating blue lighten-3" href="#top"><i class="material-icons">arrow_upward</i></a>
-	</div>
+	</script>
+	<!--Footer-->
+    <br>
+    <hr>
+    <div class="container">
+        <footer class="page-footer black">
+            <div class="row">
+                <div class="col l6 s12">
+                    <a href="index.html">
+                        <h2 class="blue-text text-lighten-3">CSScholars</h2>
+                    </a>
+                    <h5 class="white-text">Preparing for the next stage of humanity</h5>
+                </div>
+                <div class="row col l4 offset-l2 s12">
+                    <table class="left">
+                        <tr>
+                            <td>
+                                <a href="index.html">
+                                    <h5 class="blue-text text-lighten-3">Home</h5>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="faq.html">
+                                    <h5 class="blue-text text-lighten-3">FAQ</h5>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="info.html">
+                                    <h5 class="blue-text text-lighten-3">Information</h5>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="contact.html">
+                                    <h5 class="blue-text text-lighten-3">Contact Us</h5>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="about.html">
+                                    <h5 class="blue-text text-lighten-3">About Us</h5>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="/img/Citations.pdf" target="_blank">
+                                    <h5 class="blue-text text-lighten-3">Sources</h5>
+                                </a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <!--Social Media-->
+                <div class="row">
+                    <table class="icons">
+                        <tr>
+                            <td>
+                                <a class="fa fa-instagram" href="https://www.instagram.com/"></a>
+                            </td>
+                            <td>
+                                <a class="fa fa-facebook" href="https://www.facebook.com/"></a>
+                            </td>
+                            <td>
+                                <a class="fa fa-linkedin" href="https://www.linkedin.com/feed/"></a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div>
+                    <h5 class="white-text left">Copyright &copy; 2023 CSScholars - All Rights Reserved</h5>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <div class="sticky">
+        <a class="sticky btn-floating blue lighten-3" href="#top"><i class="material-icons">arrow_upward</i></a>
+    </div>
 </body>
+
 </html>
