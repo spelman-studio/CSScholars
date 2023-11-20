@@ -23,6 +23,11 @@ div.sticky {
 a :hover {
 	opacity: 0.5;
 }
+
+.collapsible {
+	background-color: black;
+	border: none !important;
+}
 /*Image Gallery*/
 
 div.gallery {
@@ -72,6 +77,12 @@ div.desc {
 }
 /*Social Media Icons*/
 
+/*Not working
+td.fa {
+	color: white !important;
+}
+*/
+
 .fa:hover {
 	opacity: 0.5;
 }
@@ -88,9 +99,12 @@ div.desc {
 	color: white;
 }
 .fa {
-	font-size: 220% !important;
-	padding: 20px;
+	color: white;
+	font-size: 170% !important;
+	padding: 10px;
 	width: 60px;
 	text-decoration: none;
-	margin: 5px 80px;
+	margin: 5px 5px;
 }
+
+#copyright {align-content: center}

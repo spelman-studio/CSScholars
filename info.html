@@ -6,7 +6,10 @@
     <meta content="AI, Technology, Project, Generative AI" name="keywords">
     <meta content="Alex Abreu, Sean Alexander, Sam Bryant, Jordyn Pryor, Jane Spelman, Garland Weaver" name="author">
     <link href="main.css" rel="stylesheet">
-    <title>CSScholars - Home</title>
+    <title>CSScholars - Information</title>
+    <!--Not working
+        <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+    -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
@@ -19,10 +22,12 @@
             $('.sidenav').sidenav();
             $('.parallax').parallax();
             $('.slider').slider();
+            $('.collapsible').collapsible();
 
         });
 
     </script>
+    <script> M.toast({html: 'I am a toast!'}) </script>
 </head>
 
 <body class="black">
@@ -95,12 +100,30 @@
 		<hr>
 		<div class="white-text">
 			<h3 id="environment">How is AI Changing the Environment?</h3>
-			<h4 class="flow-text">Though at first glance generative AI seems like an entirely digital creation, it does in fact have an impact upon the physical world (Kumar). The development and maintenance of these systems with all of the data and servers they entail has been massively energy intensive (Kumar). Data centers, or physical facilities which store and manage information for communications technology, account for a collective 2-3% of greenhouse gas emissions (Kumar). Though the environmental impact of data centers fueling AI itself has not yet been massive, as systems such as ChatGPT and Midjourney continue to gain mainstream appeal and usage the carbon footprint of AI will see exponential growth (Kumar). Given this information, it is critical to take the environmental impacts of AI into consideration when employing its usage.</h4>
-			<h3 id="work">AI and it's Role in the Workforce</h3>
-			<h4 class="flow-text">Generative AI has led to a number of growing concerns and debates pertaining to its use in professional settings, particularly regarding its use in fields traditionally done by human professionals (Sammer). One extraordinarily relevant example of this is the ongoing WGA/SAG-AFTRA strike in Hollywood, in which one of the key points of debate has been the use of AI in the writer’s room for film and television production as well as to replicate actor’s likenesses (Sammer).</h4>
-			<h3 id="finance">AI and Finance</h3>
-			<h4 class="flow-text">Finance as an field has historically always invested in new technologies far ahead of most other industries, a trend which has unsurprisingly continued with AI (Desai). The need for data processing that lies at the core of most companies involved with finance lies distinctly with the capabilities of recent generative AI models, with possibilities ranging from developing short-term strategies for hedge funds to determining the most effective ways for individuals to manage assets over a given period (Desai). The abundant and fast-changing data of finance can be analyzed and managed with a speed and efficiency no human is capable of when AI is put into play (Desai). This will likely result in AI becoming a dominant force in the finance industry, determining its “winners” and “loser” with almost frightening speed (Desai).</h4><!--
-        <div class="container black white-text">
+            <ul class="collapsible black">
+                <li>
+                  <div class="collapsible-header black"><h4 class="blue-text text-lighten-3">Learn More</h4></div>
+                  <div class="collapsible-body"><span><h4 class="flow-text">Though at first glance generative AI seems like an entirely digital creation, it does in fact have an impact upon the physical world (Kumar). The development and maintenance of these systems with all of the data and servers they entail has been massively energy intensive (Kumar). Data centers, or physical facilities which store and manage information for communications technology, account for a collective 2-3% of greenhouse gas emissions (Kumar). Though the environmental impact of data centers fueling AI itself has not yet been massive, as systems such as ChatGPT and Midjourney continue to gain mainstream appeal and usage the carbon footprint of AI will see exponential growth (Kumar). Given this information, it is critical to take the environmental impacts of AI into consideration when employing its usage.</h4></span></div>
+                </li>
+              </ul>
+			<a onclick="M.toast({html: ' AI-augmented agriculture is on their way toward being able to detect crop diseases in their early stages (Planet).'})" class="btn" style="background-color:#90caf9; color: black; font-size:15px;">Fun Fact!</a>
+            <h3 id="work">AI and it's Role in the Workforce</h3>
+			<ul class="collapsible black">
+                <li>
+                  <div class="collapsible-header black"><h4 class="blue-text text-lighten-3">Learn More</h4></div>
+                  <div class="collapsible-body"><span><h4 class="flow-text">Generative AI has led to a number of growing concerns and debates pertaining to its use in professional settings, particularly regarding its use in fields traditionally done by human professionals (Sammer). One extraordinarily relevant example of this is the ongoing WGA/SAG-AFTRA strike in Hollywood, in which one of the key points of debate has been the use of AI in the writer’s room for film and television production as well as to replicate actor’s likenesses (Sammer).</h4></span></div>
+                </li>
+              </ul>
+			<a onclick="M.toast({html: 'The World Economic Forum reports that 85 million jobs will be replaced by machines using AI by the year 2025 (Silver).'})" class="btn" style="background-color:#90caf9; color: black; font-size:15px;">Fun Fact!</a>
+            <h3 id="finance">AI and Finance</h3>
+			<ul class="collapsible black">
+                <li>
+                  <div class="collapsible-header black"><h4 class="blue-text text-lighten-3">Learn More</h4></div>
+                  <div class="collapsible-body"><span><h4 class="flow-text">Finance as an field has historically always invested in new technologies far ahead of most other industries, a trend which has unsurprisingly continued with AI (Desai). The need for data processing that lies at the core of most companies involved with finance lies distinctly with the capabilities of recent generative AI models, with possibilities ranging from developing short-term strategies for hedge funds to determining the most effective ways for individuals to manage assets over a given period (Desai). The abundant and fast-changing data of finance can be analyzed and managed with a speed and efficiency no human is capable of when AI is put into play (Desai). This will likely result in AI becoming a dominant force in the finance industry, determining its “winners” and “loser” with almost frightening speed (Desai).</h4></span></div>
+                </li>
+              </ul>
+            <a onclick="M.toast({html: 'The World Economic Forum reports that 85 million jobs will be replaced by machines using AI by the year 2025 (Silver).'})" class="btn" style="background-color:#90caf9; color: black; font-size:15px;">Fun Fact!</a>
+            <!--<div class="container black white-text">
             <ul>
                 <li>
                     <div>
@@ -123,14 +146,38 @@
         </div>
     -->
 			<h3 id="life">AI and Personal Life</h3>
-			<h4 class="flow-text">Algorithms similar to those which make generative AI possible already fill many aspects of everyday life, and will continue to do so on a much larger scale with the rise of new programs such as ChatGPT (Mihajlovic). Predictive AI is used in everything from recommendations for search engines and streaming services to your personalized ads when using social media (Mihajlovic). Chatbots for customer service as well as entertainment, despite having already existed, continue to improve in efficiency and communicative ability over time thanks to these new programs (Mihajlovic). Generative AI is also being used to improve predictive algorithms for tools such as autofill and “smart emails” as gmail has recently begun using (Mihajlovic). THese AI programs are also useful for navigation, and determining alternative routes much more</h4>
-			<h3 id="education">AI and Education</h3>
-			<h4 class="flow-text">Generative AI has become the center of many debates in the world of academia, particularly as it pertains to the ideas of plagiarism and defining “learning” in a post-AI world (UNESCO). While some educators have expressed growing concerns over AI being abused by students to generate plagiarized work, others have begun to advocate for its use in the realms of education (UNESCO). An increasingly large call has been made to adopt a “human-centered” approach to the usage of AI in education, with students and teachers alike utilizing it as a tool to enhance their own works and ease searches for information and data as opposed to using it as a replacement for developing original work (UNESCO). Some believe that the use of AI in education will better prepare students for a world where it is becoming an increasingly dominant tool, as well as equipping them to develop informed opinions on issues of human rights and human-machine relationships as these AI models continue to become more advanced. Global education policy makers are having these debates even now (UNESCO).</h4>
-			<h3 id="cybersecurity">AI and Cybersecurity</h3>
-			<h4 class="flow-text">AI poses risks and boons to the nature of cybersecurity in equal measure (Ravichandran). Hackers have already begun using it to more easily generate malicious code, as well as boosting the skills of novices at a much more rapid pace (Ravichandran). It has also allowed for the development of starter kits and subscription services that train individuals without any hacking experience to be able to create malicious code of frighteningly high quality (Ravichandran). Hackers have also utilized these tools for social engineering, developing more believable phishing emails as well as more enticing links that lead to malware (Ravichandran). To the contrary, Cybersecurity developers have also been able to use these tools to defend against hackers (Ravichandran). AI creates significantly harder to break encryptions as well as training humans to create more secure sites and boosting the security of pre-existing ones (Ravichandran). AI has also been used to provide continuous monitoring for various systems, as well as identifying false positives, both things which most human analysts struggle with (Ravichandran). AI is shaping up to have a massive impact on both sides of the cybersecurity world (Ravichandran).</h4>
-			<h3 id="art">AI and Art</h3>
-			<h4 class="flow-text">One of the largest debates about generative AI has been its usage in developing artwork (Mineo). Many have questioned whether these images even constitute artwork, given that they are not created by human artists (Mineo). These images also raise questions about ethics and copyright, given that AI must be trained on some kind of input in order to be able to generate these works (Mineo). Thus, the question arises whether AI being trained on copyrighted works should be considered an infringement of the aforementioned copyright. From a more philosophical standpoint, there have been concerns that using AI in this manner will prove detrimental to human culture on a larger scale, given that AI is at most only capable of mimicking pre-existing work and does not possess the human emotion, innovation, and adaptability that results in the creation of many new works. Most AI art work is currently a collection of stitched together visual tropes and conventions, and has not advanced to a point of significant originality (Mineo). Concerns have been raised, however, that this state is not far off given its rapid development (Mineo). AI in art poses risks for artists and consumers alike (Mineo).</h4>
-		</div>
+			<ul class="collapsible black">
+                <li>
+                  <div class="collapsible-header black"><h4 class="blue-text text-lighten-3">Learn More</h4></div>
+                  <div class="collapsible-body"><span><h4 class="flow-text">Algorithms similar to those which make generative AI possible already fill many aspects of everyday life, and will continue to do so on a much larger scale with the rise of new programs such as ChatGPT (Mihajlovic). Predictive AI is used in everything from recommendations for search engines and streaming services to your personalized ads when using social media (Mihajlovic). Chatbots for customer service as well as entertainment, despite having already existed, continue to improve in efficiency and communicative ability over time thanks to these new programs (Mihajlovic). Generative AI is also being used to improve predictive algorithms for tools such as autofill and “smart emails” as gmail has recently begun using (Mihajlovic). THese AI programs are also useful for navigation, and determining alternative routes much more.</h4></span></div>
+                </li>
+            </ul>
+			<a onclick="M.toast({html: 'AI is already used in many peoples personal lives, from face ID, to Grammarly, and Google search (Marr)'})" class="btn" style="background-color:#90caf9; color: black; font-size:15px;">Fun Fact!</a>
+            <h3 id="education">AI and Education</h3>
+			<ul class="collapsible black">
+                <li>
+                  <div class="collapsible-header black"><h4 class="blue-text text-lighten-3">Learn More</h4></div>
+                  <div class="collapsible-body"><span><h4 class="flow-text">Generative AI has become the center of many debates in the world of academia, particularly as it pertains to the ideas of plagiarism and defining “learning” in a post-AI world (UNESCO). While some educators have expressed growing concerns over AI being abused by students to generate plagiarized work, others have begun to advocate for its use in the realms of education (UNESCO). An increasingly large call has been made to adopt a “human-centered” approach to the usage of AI in education, with students and teachers alike utilizing it as a tool to enhance their own works and ease searches for information and data as opposed to using it as a replacement for developing original work (UNESCO). Some believe that the use of AI in education will better prepare students for a world where it is becoming an increasingly dominant tool, as well as equipping them to develop informed opinions on issues of human rights and human-machine relationships as these AI models continue to become more advanced. Global education policy makers are having these debates even now (UNESCO).</h4></span></div>
+                </li>
+            </ul>
+			<a onclick="M.toast({html: 'A study done by Intelligent.com found that a third of college students use ChatGPT for schoolwork (Henry)    .'})" class="btn" style="background-color:#90caf9; color: black; font-size:15px;">Fun Fact!</a>
+            <h3 id="cybersecurity">AI and Cybersecurity</h3>
+			<ul class="collapsible black">
+                <li>
+                  <div class="collapsible-header black"><h4 class="blue-text text-lighten-3">Learn More</h4></div>
+                  <div class="collapsible-body"><span><h4 class="flow-text">AI poses risks and boons to the nature of cybersecurity in equal measure (Ravichandran). Hackers have already begun using it to more easily generate malicious code, as well as boosting the skills of novices at a much more rapid pace (Ravichandran). It has also allowed for the development of starter kits and subscription services that train individuals without any hacking experience to be able to create malicious code of frighteningly high quality (Ravichandran). Hackers have also utilized these tools for social engineering, developing more believable phishing emails as well as more enticing links that lead to malware (Ravichandran). To the contrary, Cybersecurity developers have also been able to use these tools to defend against hackers (Ravichandran). AI creates significantly harder to break encryptions as well as training humans to create more secure sites and boosting the security of pre-existing ones (Ravichandran). AI has also been used to provide continuous monitoring for various systems, as well as identifying false positives, both things which most human analysts struggle with (Ravichandran). AI is shaping up to have a massive impact on both sides of the cybersecurity world (Ravichandran).</h4></span></div>
+                </li>
+            </ul>
+			<a onclick="M.toast({html: 'AI is involved in cybersecurity in many ways. Their most popular uses are for breach risk prediction, spam filtering, user authentication, and password protection, and fraud detection (Engati).'})" class="btn" style="background-color:#90caf9; color: black; font-size:15px;">Fun Fact!</a>
+            <h3 id="art">AI and Art</h3>
+			<ul class="collapsible black">
+                <li>
+                  <div class="collapsible-header black"><h4 class="blue-text text-lighten-3">Learn More</h4></div>
+                  <div class="collapsible-body"><span><h4 class="flow-text">One of the largest debates about generative AI has been its usage in developing artwork (Mineo). Many have questioned whether these images even constitute artwork, given that they are not created by human artists (Mineo). These images also raise questions about ethics and copyright, given that AI must be trained on some kind of input in order to be able to generate these works (Mineo). Thus, the question arises whether AI being trained on copyrighted works should be considered an infringement of the aforementioned copyright. From a more philosophical standpoint, there have been concerns that using AI in this manner will prove detrimental to human culture on a larger scale, given that AI is at most only capable of mimicking pre-existing work and does not possess the human emotion, innovation, and adaptability that results in the creation of many new works. Most AI art work is currently a collection of stitched together visual tropes and conventions, and has not advanced to a point of significant originality (Mineo). Concerns have been raised, however, that this state is not far off given its rapid development (Mineo). AI in art poses risks for artists and consumers alike (Mineo).</h4></span></div>
+                </li>
+            </ul>
+            <a onclick="M.toast({html: ' The first significant AI art generator can be traced back to the 70s (Balderson).'})" class="btn" style="background-color:#90caf9; color: black; font-size:15px;">Fun Fact!</a>
+        </div>
 	</div>
 	<!--Footer-->
     <br>
@@ -143,6 +190,22 @@
                         <h2 class="blue-text text-lighten-3">CSScholars</h2>
                     </a>
                     <h5 class="white-text">Preparing for the next stage of humanity</h5>
+                    <div class="row">
+                        <!--Social Media (not working)-->
+                        <table>
+                            <tr>
+                                <td>
+                                    <a class="fa fa-instagram" href="https://www.instagram.com/"></a>
+                                </td>
+                                <td>
+                                    <a class="fa fa-facebook" href="https://www.facebook.com/"></a>
+                                </td>
+                                <td>
+                                    <a class="fa fa-linkedin" href="https://www.linkedin.com/feed/"></a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
                 </div>
                 <div class="row col l4 offset-l2 s12">
                     <table class="left">
@@ -184,24 +247,8 @@
                         </tr>
                     </table>
                 </div>
-                <!--Social Media-->
-                <div class="row">
-                    <table class="icons">
-                        <tr>
-                            <td>
-                                <a class="fa fa-instagram" href="https://www.instagram.com/"></a>
-                            </td>
-                            <td>
-                                <a class="fa fa-facebook" href="https://www.facebook.com/"></a>
-                            </td>
-                            <td>
-                                <a class="fa fa-linkedin" href="https://www.linkedin.com/feed/"></a>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
                 <div>
-                    <h5 class="white-text left">Copyright &copy; 2023 CSScholars - All Rights Reserved</h5>
+                    <h5 class="white-text left" id=copyright>Copyright &copy; 2023 CSScholars - All Rights Reserved</h5>
                 </div>
             </div>
         </footer>

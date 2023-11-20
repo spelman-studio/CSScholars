@@ -4820,10 +4820,8 @@ body.keyboard-focused .dropdown-content li:focus {
 	will-change: bottom, opacity;
 }
 .collapsible {
-	border-top: 1px solid #ddd;
-	border-right: 1px solid #ddd;
-	border-left: 1px solid #ddd;
-	margin: 0.5rem 0 1rem 0;
+	border:none;
+	margin: 0.2rem 0 .2rem 0;
 }
 .collapsible-header {
 	display: -webkit-box;
@@ -4835,7 +4833,7 @@ body.keyboard-focused .dropdown-content li:focus {
 	line-height: 1.5;
 	padding: 1rem;
 	background-color: #000;
-	border-bottom: 1px solid #94BEFE;
+	border: none;
 }
 .collapsible-header:focus {
 	outline: 0;
@@ -4852,9 +4850,9 @@ body.keyboard-focused .dropdown-content li:focus {
 }
 .collapsible-body {
 	display: none;
-	border-bottom: 1px solid #ddd;
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
+	border-bottom:none;
+	-webkit-box-sizing: content-box;
+	box-sizing: content-box;
 	padding: 2rem;
 }
 .sidenav .collapsible, .sidenav.fixed .collapsible {
