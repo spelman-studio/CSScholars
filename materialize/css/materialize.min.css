@@ -4866,7 +4866,7 @@ input:not([type])+label:after, input[type=text]:not(.browser-default)+label:afte
 	width: calc(100% - 3rem - 1.5rem)
 }
 .input-field>label {
-	color: #9e9e9e;
+	color: #fff;
 	position: absolute;
 	top: 0;
 	left: 0;

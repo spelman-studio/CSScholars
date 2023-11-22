@@ -108,23 +108,24 @@
 	<div class="container">
 		<br>
 		<h3 class="blue-text text-lighten-3">Contact Form</h3>
-		<form class="col s12" action ="https://formsubmit.co/janespelmanstudio@gmail.com" method="POST">
-			<div class="row">
+		<form class="col s12" target="_blank" action="https://formsubmit.co/spelmajm@miamioh.edu" method="POST">
+			<div class="form-group">
+                <div class="form-row">
 				<form class="col s12 white-text">
 					<div class="row">
 						<div class="input-field col s6">
-							<i class="material-icons white-text prefix">person</i> <input class="validate white-text" id="icon_prefix" type="text"> <label for="icon_prefix">First Name</label>
+							<i class="material-icons white-text prefix">person</i> <input type="text" name="First" class="validate white-text form-control" id="icon_prefix" required><label for="icon_prefix">First Name</label>
 						</div>
 						<div class="input-field col s6">
-							<i class="material-icons white-text prefix">people</i> <input class="validate white-text" id="last_name" type="text"> <label for="last_name">Last Name</label>
+							<i class="material-icons white-text prefix">people</i> <input type="text" name="Last" class="validate white-text form-control" id="last_name" required> <label for="last_name">Last Name</label>
 						</div>
 					</div>
 					<div class="row">
 						<div class="input-field col s6">
-							<i class="material-icons white-text prefix">phone</i> <input class="validate white-text" id="icon_telephone" type="tel"> <label for="icon_telephone">Telephone</label>
+							<i class="material-icons white-text prefix">phone</i><input type="tel" name="Phone" class="validate white-text form-control" id="icon_telephone"> <label for="icon_telephone">Telephone</label>
 						</div>
 						<div class="input-field col s6">
-							<i class="material-icons white-text prefix">mail</i> <input class="validate white-text" id="icon_mail" type="text"> <label for="icon_mail">Email</label>
+							<i class="material-icons white-text prefix">mail</i><input type="email" name="Email" class="validate white-text form-control" id="icon_mail" required> <label for="icon_mail">Email</label>
 						</div>
 					</div>
 					<div class="row">
@@ -132,14 +133,14 @@
 							<div class="row">
 								<div class="input-field col s12">
 									<i class="material-icons white-text prefix">mode_edit</i> 
-									<textarea class="materialize-textarea white-text" id="textarea1"></textarea> <label for="textarea1">Message</label>
+									<textarea class="materialize-textarea white-text form-control" id="textarea1" name="Message"></textarea><label for="textarea1">Message</label>
 								</div>
 							</div>
 						</form>
 					</div>
 					<div class="row">
 						<div class="col s12">
-							<a href="#" :hover><button class="btn waves-effect waves-light blue lighten-3 black-text" name="action" type="submit">Submit <i class="material-icons right">send</i></button></a>
+                            <button class="btn waves-effect waves-light blue lighten-3 black-text" type="submit">Submit<i class="material-icons right">send</i></button>
 						</div>
 					</div>
 				</form>
