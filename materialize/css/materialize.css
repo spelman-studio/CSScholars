@@ -4820,7 +4820,7 @@ body.keyboard-focused .dropdown-content li:focus {
 	will-change: bottom, opacity;
 }
 .collapsible {
-	border:none;
+	border: none;
 	margin: 0.2rem 0 .2rem 0;
 }
 .collapsible-header {
@@ -4850,7 +4850,7 @@ body.keyboard-focused .dropdown-content li:focus {
 }
 .collapsible-body {
 	display: none;
-	border-bottom:none;
+	border-bottom: none;
 	-webkit-box-sizing: content-box;
 	box-sizing: content-box;
 	padding: 2rem;

@@ -4550,7 +4550,7 @@ body.keyboard-focused .dropdown-content li:focus {
 	line-height: 1.5;
 	padding: 1rem;
 	background-color: #000;
-	border:none;
+	border: none;
 }
 .collapsible-header:focus {
 	outline: 0

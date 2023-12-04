@@ -5,14 +5,12 @@
 nav {
 	padding: 0px 0px 0px 10px;
 }
-
 @media only screen and (max-width: 1000px) {
 	.slideshow-container {
 		width: 100%;
 		height: auto;
 	}
 }
-
 @media only screen and (max-width: 700px) {
 	.slideshow-container {
 		width: 100%;
@@ -31,35 +29,34 @@ nav {
 		height: 50%;
 	}
 }
-
-
-.mySlides {display: none;}
-
+.mySlides {
+	display: none;
+}
 .slideshow-container img {
 	vertical-align: middle;
 	width: 100%;
 	height: auto;
 }
-
 /* Slideshow container */
+
 .slideshow-container {
 	width: 100%;
 	height: auto;
 	overflow: hidden;
 	position: relative;
 	margin: none;
-  }
+}
+/* Number text (1/3 etc) */
 
-  /* Number text (1/3 etc) */
 .numbertext {
 	color: #d9d9d9;
 	font-size: 12px;
 	padding: 8px 12px;
 	position: absolute;
 	top: 0;
-  }
+}
+/* The dots/bullets/indicators */
 
-  /* The dots/bullets/indicators */
 .dot {
 	height: 15px;
 	width: 15px;
@@ -68,31 +65,30 @@ nav {
 	border-radius: 50%;
 	display: inline-block;
 	transition: background-color 0.6s ease;
-  }
-  
-  .active {
-	background-color: #90caf9 !important;
-  }
-
-  .slider .indicators .indicator-item.active {
+}
+.active {
 	background-color: #90caf9 !important;
 }
-
+.slider .indicators .indicator-item.active {
+	background-color: #90caf9 !important;
+}
 .carousel .indicators .indicator-item.active {
 	background-color: #90caf9 !important;
 }
+/* Fading animation */
 
-  /* Fading animation */
 .fade {
 	animation-name: fade;
 	animation-duration: 1.5s;
-  }
-  
-  @keyframes fade {
-	from {opacity: .4} 
-	to {opacity: 1}
-  }
-
+}
+@keyframes fade {
+	from {
+		opacity: .4
+	}
+	to {
+		opacity: 1
+	}
+}
 .card {
 	height: 50%;
 	width: auto;
@@ -111,7 +107,6 @@ div.sticky {
 a :hover {
 	opacity: 0.5;
 }
-
 .collapsible {
 	background-color: black;
 	border: none !important;
@@ -164,33 +159,38 @@ div.desc {
 	text-align: center;
 }
 /* label color */
+
 .input-field label {
 	color: #fff !important;
-  }
-  /* label focus color */
-  .input-field input[type=text]:focus + label {
+}
+/* label focus color */
+
+.input-field input[type=text]:focus+label {
 	color: #fff !important;
-  }
-  /* label underline focus color */
-  .input-field input[type=text]:focus {
+}
+/* label underline focus color */
+
+.input-field input[type=text]:focus {
 	border-bottom: 1px solid #90caf9 !important;
 	box-shadow: 0 1px 0 0 #90caf9 !important;
-  }
-  /* valid color */
-  .input-field input[type=text].valid {
+}
+/* valid color */
+
+.input-field input[type=text].valid {
 	border-bottom: 1px solid #4caf50 !important;
 	box-shadow: 0 1px 0 0 #4caf50 !important;
-  }
-  /* invalid color */
-  .input-field input[type=text].invalid {
+}
+/* invalid color */
+
+.input-field input[type=text].invalid {
 	border-bottom: 1px solid #f44336 !important;
 	box-shadow: 0 1px 0 0 #f44336 !important;
-  }
-  /* icon prefix focus color */
-  .input-field .prefix.active {
-	color: #90caf9 !important;
-  }
+}
+/* icon prefix focus color */
 
+.input-field .prefix.active {
+	color: #90caf9 !important;
+}
 /*Social Media Icons*/
 
 /*Not working
@@ -222,16 +222,16 @@ td.fa {
 	text-decoration: none;
 	margin: 5px 5px;
 }
-
 /* image gallery */
-#image_list li {
-    padding-right: 10px;
-    display: inline;
-}
 
+#image_list li {
+	padding-right: 10px;
+	display: inline;
+}
 input[type=text] {
-    font-size: 25px !important;
+	font-size: 25px !important;
 	color: #90caf9;
 }
-
-#copyright {align-content: center}
+#copyright {
+	align-content: center
+}
