@@ -48,6 +48,35 @@
         }
 
     </script>
+    <script>
+        function calculateAI() {
+            let social = parseInt(document.getElementById("social").value);
+            let banking = parseInt(document.getElementById("banking").value);
+            let cybersec = parseInt(document.getElementById("cybersec").value);
+            let shopping = parseInt(document.getElementById("shopping").value);
+
+            let totalAI = 0
+            //((social + banking + cybersec + shopping) / 4) * 10;
+
+            if (social >= 0 && social <= 10 && banking >= 0 && banking <= 10 && cybersec >= 0 && cybersec <= 10 && shopping >= 0 && shopping <= 10) {
+                totalAI = ((social + banking + cybersec + shopping) / 4) * 10;
+            } else {
+                alert("All values must be between 0-10")
+            }
+            document.getElementById("AIeffect").value = parseFloat(totalAI).toFixed(2) + "%";
+        }
+
+        function clear_form() {
+            document.getElementById("social").value = "";
+            document.getElementById("banking").value = "";
+            document.getElementById("cybersec").value = "";
+
+            document.getElementById("shopping").value = "";
+
+            document.getElementById("AIeffect").value = "";
+            document.getElementById("social").focus();
+        }
+    </script>
 </head>
 
 <body class="black">
@@ -225,6 +254,47 @@
                                 <img src="thumbnails/AIworkforce.jpeg" width=10% height=auto alt=""></a></li>
                     </ul>
                 </div>
+            </div>
+        </div>
+        <br>
+
+        <!--AI Usage Calculator-->
+        <div class="container left-align">
+            <div class="row">
+                <h2 class="blue-text text-lighten-3">How much AI do you use?</h4>
+                    <hr>
+                    <br>
+                <form id="AIform">
+                    <label for="social"><h5 class="white-text">Amount of social media use per week from 0-10:</h5></label>
+                    <div class="input-field">
+                        <input type="text" id="social" class="materialize-textarea blue-text text-lighten-3 form-control"><br>
+                    </div>
+        
+                    <label for="banking"><h5 class="white-text">Amount of banking app/service use per week from 0-10:</h5></label>
+                    <div class="input-field">
+                        <input type="text" id="banking" class="materialize-textarea blue-text text-lighten-3 form-control"><br>
+                    </div>
+        
+                    <label for="cybersec"><h5 class="white-text">How much reliance do you have on cybersecurity and encryption as a whole? This can be sites where your passwords and payment details are stored or anything related. Enter on a scale of 0-10:</h5></label>
+                    <div class="input-field">
+                        <input type="text" id="cybersec" class="materialize-textarea blue-text text-lighten-3 form-control"><br>
+                    </div>
+        
+                    <label for="shopping"><h5 class="white-text">Amount of online shopping/browsing marketplaces done per week from 0-10:</h5></label>
+                    <div class="input-field">
+                        <input type="text" id="shopping" class="materialize-textarea blue-text text-lighten-3 form-control"><br>
+                    </div>
+        
+                    <label for="AIeffect"><h5 class="white-text">Percentage that AI will effect you day-to-day:</h5></label>
+                    <div class="input-field">
+                        <input type="text" id="AIeffect" disabled="disabled" class="materialize-textarea blue-text text-lighten-3 form-control"><br>
+                    </div>
+        
+                    <label>&nbsp;</label>
+                    <input class="btn waves-effect waves-light blue lighten-3 black-text" type="button" id="calculate" value="Calculate" onclick="calculateAI()">
+        
+                    <input class="btn waves-effect waves-light blue lighten-3 black-text" type="button" id="clear" value="Clear" onclick="clear_form()"><br>
+                </form>
             </div>
         </div>
 

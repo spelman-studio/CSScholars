@@ -225,4 +225,9 @@ td.fa {
     display: inline;
 }
 
+input[type=text] {
+    font-size: 25px !important;
+	color: #90caf9;
+}
+
 #copyright {align-content: center}
