@@ -3947,7 +3947,7 @@ small {
 	position: absolute;
 	bottom: 0;
 	height: 2px;
-	background-color: #f6b2b5;
+	background-color: #d9d9d9;
 	will-change: left, right
 }
 @media only screen and (max-width: 992px) {
@@ -6309,13 +6309,13 @@ input[type=range]::-ms-thumb {
 	height: 16px;
 	width: 16px;
 	margin: 0 12px;
-	background-color: #fff;
+	background-color: #d9d9d9;
 	-webkit-transition: background-color .3s;
 	transition: background-color .3s;
 	border-radius: 50%
 }
 .slider .indicators .indicator-item.active {
-	background-color: #90caf9 !important;
+	background-color: #90caf9;
 }
 .carousel {
 	overflow: hidden;
@@ -6385,13 +6385,13 @@ input[type=range]::-ms-thumb {
 	height: 8px;
 	width: 8px;
 	margin: 24px 4px;
-	background-color: #90caf9;
+	background-color: #d9d9d9;
 	-webkit-transition: background-color .3s;
 	transition: background-color .3s;
 	border-radius: 50%
 }
 .carousel .indicators .indicator-item.active {
-	background-color: #90caf9
+	background-color: #90caf9;
 }
 .carousel.scrolling .carousel-item .materialboxed, .carousel .carousel-item:not(.active) .materialboxed {
 	pointer-events: none

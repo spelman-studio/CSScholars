@@ -4225,7 +4225,7 @@ small {
 	position: absolute;
 	bottom: 0;
 	height: 2px;
-	background-color: inherit;
+	background-color: #d9d9d9;
 	will-change: left, right;
 }
 @media only screen and (max-width: 992px) {
@@ -6734,7 +6734,7 @@ input[type=range]::-ms-thumb {
 	height: 16px;
 	width: 16px;
 	margin: 0 12px;
-	background-color: #e0e0e0;
+	background-color: #d9d9d9;
 	-webkit-transition: background-color .3s;
 	transition: background-color .3s;
 	border-radius: 50%;
@@ -6810,7 +6810,7 @@ input[type=range]::-ms-thumb {
 	height: 8px;
 	width: 8px;
 	margin: 24px 4px;
-	background-color: #90caf9;
+	background-color: #d9d9d9;
 	-webkit-transition: background-color .3s;
 	transition: background-color .3s;
 	border-radius: 50%;

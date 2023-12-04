@@ -24,7 +24,6 @@
             $('.collapsible').collapsible();
 
         });
-
     </script>
 </head>
 <body class="black">
@@ -91,8 +90,61 @@
             </a>
         </li>
     </ul>
-	<!--Cover Image-->
-	<img alt="" class="responsive-img" id="top" src="img/AI_pic_17.jpg" width="100%">
+
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <img src="img/AI_pic_17.jpg" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="img/AI_PIC_22.jpg" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="img/AI_PIC_19.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="img/AI_PIC_20.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="img/AI_PIC_21.jpg" style="width:100%">
+        </div>
+        
+        </div>
+        <br>
+
+        <div style="text-align:center">
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span>
+        <span class="dot"></span>
+        </div>
+
+        <script>
+            let slideIndex = 0;
+            showSlides();
+            
+            function showSlides() {
+              let i;
+              let slides = document.getElementsByClassName("mySlides");
+              let dots = document.getElementsByClassName("dot");
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+              }
+              slideIndex++;
+              if (slideIndex > slides.length) {slideIndex = 1}    
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+              setTimeout(showSlides, 2000); // Change image every 2 seconds
+            }
+            </script>
     <!--Description-->
 	<div class="container">
 		<a href="info.html">
@@ -185,10 +237,6 @@
 			</li>
 		</ul>
 	</div>
-	 
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js">
-	</script> <!--Materializecss Slider-->
-	 
 	<script>
 	            $(document).ready(function () {
 	                $('.slider').slider({full_width: true});

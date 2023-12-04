@@ -10,8 +10,9 @@
     <link rel="icon" type="image/x-icon" href="img/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--Script-->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="https://kit.fontawesome.com/f9b4f9a57f.js" crossorigin="anonymous"></script>
 
@@ -27,6 +28,26 @@
 
     </script>
     <script> M.toast({html: 'I am a toast!'}) </script>
+    <script>
+        function swap(evt) {
+            document.getElementById("image").src = this.getAttribute("href");
+            document.getElementById("caption").innerHTML = this.getAttribute("title");
+
+            // Cancel the default action of a click event for hyperlinked items.
+            if (evt.preventDefault) {
+                evt.preventDefault();
+            } else {
+                evt.returnValue = false;
+            }
+        }
+        window.onload = function() {
+            let images = document.getElementById("image_list").getElementsByTagName("a");
+            for (let i = 0; i < images.length; i++) {
+                images[i].addEventListener("click", swap);
+            }
+        }
+
+    </script>
 </head>
 
 <body class="black">
@@ -178,6 +199,37 @@
             <a onclick="M.toast({html: ' The first significant AI art generator can be traced back to the 70s (Balderson).'})" class="btn" style="background-color:#90caf9; color: black; font-size:15px;">Fun Fact!</a>
         </div>
 	</div>
+
+    <!-- Image Gallery -->
+    <section id="gallery" class="section section-contact scrollspy">
+        <div class="container center">
+            <div class="row">
+                <!-- Image Swap -->
+                <div class="col l6 m6 s12">
+                    <h4 class="title white-text">Gallery</h4>
+                    <h5 id="caption" class="blue-text text-lighten-3">Artificial Intelligence</h5>
+                    <p><img src="images/AIArt.jpg" width=80% height=300px alt="" id="image"></p>
+                    <ul id="image_list">
+                        <li><a href="images/AIArt.jpg" title="AI and Art" id="first_link">
+                                <img src="thumbnails/AIArt.jpg" width=10% height=40px alt=""></a></li>
+                        <li><a href="images/AICybersecurity.jpg" title="AI and Cybersecurity">
+                                <img src="thumbnails/AICybersecurity.jpg" width=10% height=40px alt=""></a></li>
+                        <li><a href="images/AIEducation.jpg" title="AI and Education">
+                                <img src="thumbnails/AIEducation.jpg" width=10% height=40px alt=""></a></li>
+                        <li><a href="images/AIEnviornment.jpeg" title="How is AI Changing the Environment?">
+                                <img src="thumbnails/AIEnviornment.jpeg" width=10% height=40px alt=""></a></li>
+                        <li><a href="images/AIFinance.jpg" title="AI and Finance">
+                                <img src="thumbnails/AIFinance.jpg" width=10% height=40px alt=""></a></li>
+                        <li><a href="images/AIPersonalLife.jpg" title="AI and Personal Life">
+                                <img src="thumbnails/AIPersonalLife.jpg" width=10% height=40px alt=""></a></li>
+                        <li><a href="images/AIworkforce.jpeg" title="AI and it's Role in the Workforce">
+                                <img src="thumbnails/AIworkforce.jpeg" width=10% height=40px alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
 	<!--Footer-->
     <br>
     <hr>
