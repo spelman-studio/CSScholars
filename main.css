@@ -6,18 +6,41 @@ nav {
 	padding: 0px 0px 0px 10px;
 }
 
+@media only screen and (max-width: 1000px) {
+	.slideshow-container {
+		width: 100%;
+		height: auto;
+		margin: 6px 0;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	.slideshow-container {
+		width: 100%;
+		height: 75%;
+		margin: 6px 0;
+	}
+}
+@media only screen and (max-width: 500px) {
+	.slideshow-container {
+		width: 100%;
+		height: 50%;
+	}
+}
+
+
 .mySlides {display: none;}
 
 .slideshow-container img {
 	vertical-align: middle;
 	width: 100%;
-	height: 1000px;
+	height: auto;
 }
 
 /* Slideshow container */
 .slideshow-container {
 	width: 100%;
-	height: 1000px;
+	height: auto;
 	overflow: hidden;
 	position: relative;
 	margin: none;
