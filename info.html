@@ -19,66 +19,66 @@
 	</script><!-- JavaScript/jQuery Function Initialization inside <script> </script>  -->
 
 	<script>
-	       $(document).ready(function() {
-	           $('.sidenav').sidenav();
-	           $('.parallax').parallax();
-	           $('.slider').slider();
-	           $('.collapsible').collapsible();
+	          $(document).ready(function() {
+	              $('.sidenav').sidenav();
+	              $('.parallax').parallax();
+	              $('.slider').slider();
+	              $('.collapsible').collapsible();
 
-	       });
-
-	</script>
-	<script>
-	M.toast({html: 'I am a toast!'}) 
-	</script>
-	<script>
-	       function swap(evt) {
-	           document.getElementById("image").src = this.getAttribute("href");
-	           document.getElementById("caption").innerHTML = this.getAttribute("title");
-
-	           // Cancel the default action of a click event for hyperlinked items.
-	           if (evt.preventDefault) {
-	               evt.preventDefault();
-	           } else {
-	               evt.returnValue = false;
-	           }
-	       }
-	       window.onload = function() {
-	           let images = document.getElementById("image_list").getElementsByTagName("a");
-	           for (let i = 0; i < images.length; i++) {
-	               images[i].addEventListener("click", swap);
-	           }
-	       }
+	          });
 
 	</script>
 	<script>
-	       function calculateAI() {
-	           let social = parseInt(document.getElementById("social").value);
-	           let banking = parseInt(document.getElementById("banking").value);
-	           let cybersec = parseInt(document.getElementById("cybersec").value);
-	           let shopping = parseInt(document.getElementById("shopping").value);
+	   M.toast({html: 'I am a toast!'}) 
+	</script>
+	<script>
+	          function swap(evt) {
+	              document.getElementById("image").src = this.getAttribute("href");
+	              document.getElementById("caption").innerHTML = this.getAttribute("title");
 
-	           let totalAI = 0
-	           //((social + banking + cybersec + shopping) / 4) * 10;
+	              // Cancel the default action of a click event for hyperlinked items.
+	              if (evt.preventDefault) {
+	                  evt.preventDefault();
+	              } else {
+	                  evt.returnValue = false;
+	              }
+	          }
+	          window.onload = function() {
+	              let images = document.getElementById("image_list").getElementsByTagName("a");
+	              for (let i = 0; i < images.length; i++) {
+	                  images[i].addEventListener("click", swap);
+	              }
+	          }
 
-	           if (social >= 0 && social <= 10 && banking >= 0 && banking <= 10 && cybersec >= 0 && cybersec <= 10 && shopping >= 0 && shopping <= 10) {
-	               totalAI = ((social + banking + cybersec + shopping) / 4) * 10;
-	           } else {
-	               alert("All values must be between 0-10")
-	           }
-	           document.getElementById("AIeffect").value = parseFloat(totalAI).toFixed(2) + "%";
-	       }
+	</script>
+	<script>
+	          function calculateAI() {
+	              let social = parseInt(document.getElementById("social").value);
+	              let banking = parseInt(document.getElementById("banking").value);
+	              let cybersec = parseInt(document.getElementById("cybersec").value);
+	              let shopping = parseInt(document.getElementById("shopping").value);
 
-	       function clear_form() {
-	           document.getElementById("social").value = "";
-	           document.getElementById("banking").value = "";
-	           document.getElementById("cybersec").value = "";
+	              let totalAI = 0
+	              //((social + banking + cybersec + shopping) / 4) * 10;
 
-	           document.getElementById("shopping").value = "";
+	              if (social >= 0 && social <= 10 && banking >= 0 && banking <= 10 && cybersec >= 0 && cybersec <= 10 && shopping >= 0 && shopping <= 10) {
+	                  totalAI = ((social + banking + cybersec + shopping) / 4) * 10;
+	              } else {
+	                  alert("All values must be between 0-10")
+	              }
+	              document.getElementById("AIeffect").value = parseFloat(totalAI).toFixed(2) + "%";
+	          }
 
-	           document.getElementById("AIeffect").value = "";
-	           document.getElementById("social").focus();
-	       }
+	          function clear_form() {
+	              document.getElementById("social").value = "";
+	              document.getElementById("banking").value = "";
+	              document.getElementById("cybersec").value = "";
+
+	              document.getElementById("shopping").value = "";
+
+	              document.getElementById("AIeffect").value = "";
+	              document.getElementById("social").focus();
+	          }
 	</script>
 </head>
 <body class="black">
@@ -283,24 +283,19 @@
 			<hr>
 			<br>
 			<form id="AIform" name="AIform">
-				<label for="social"></label>
-				<h5 class="white-text"><label for="social">Amount of social media use per week from 0-10:</label></h5>
+				<label for="social"></label> <label class="input-q" for="social">Amount of social media use per week from 0-10:</label>
 				<div class="input-field">
 					<input class="materialize-textarea blue-text text-lighten-3 form-control" id="social" type="text"><br>
-				</div><label for="banking"></label>
-				<h5 class="white-text"><label for="banking">Amount of banking app/service use per week from 0-10:</label></h5>
+				</div><label for="banking"></label> <label class="input-q" for="banking">Amount of banking app/service use per week from 0-10:</label>
 				<div class="input-field">
 					<input class="materialize-textarea blue-text text-lighten-3 form-control" id="banking" type="text"><br>
-				</div><label for="cybersec"></label>
-				<h5 class="white-text"><label for="cybersec">How much reliance do you have on cybersecurity and encryption as a whole? This can be sites where your passwords and payment details are stored or anything related. Enter on a scale of 0-10:</label></h5>
+				</div><label for="cybersec"></label> <label class="input-q" for="cybersec">How much reliance do you have on cybersecurity and encryption as a whole? This can be sites where your passwords and payment details are stored or anything related. Enter on a scale of 0-10:</label>
 				<div class="input-field">
 					<input class="materialize-textarea blue-text text-lighten-3 form-control" id="cybersec" type="text"><br>
-				</div><label for="shopping"></label>
-				<h5 class="white-text"><label for="shopping">Amount of online shopping/browsing marketplaces done per week from 0-10:</label></h5>
+				</div><label for="shopping"></label> <label class="input-q" for="shopping">Amount of online shopping/browsing marketplaces done per week from 0-10:</label>
 				<div class="input-field">
 					<input class="materialize-textarea blue-text text-lighten-3 form-control" id="shopping" type="text"><br>
-				</div><label for="AIeffect"></label>
-				<h5 class="white-text"><label for="AIeffect">Percentage that AI will effect you day-to-day:</label></h5>
+				</div><label for="AIeffect"></label> <label class="input-q" for="AIeffect">Percentage that AI will effect you day-to-day:</label>
 				<div class="input-field">
 					<input class="materialize-textarea blue-text text-lighten-3 form-control" disabled="disabled" id="AIeffect" type="text"><br>
 				</div><label>&nbsp;</label> <input class="btn waves-effect waves-light blue lighten-3 black-text" id="calculate" onclick="calculateAI()" type="button" value="Calculate"> <input class="btn waves-effect waves-light blue lighten-3 black-text" id="clear" onclick="clear_form()" type="button" value="Clear"><br>

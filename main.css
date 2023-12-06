@@ -5,28 +5,28 @@
 nav {
 	padding: 0px 0px 0px 10px;
 }
-@media only screen and (max-width: 1000px) {
-	.slideshow-container {
+@media only screen and (min-width: 701px) {
+	.slideshow-container img {
 		width: 100%;
-		height: auto;
+		height: 1070px !important;
 	}
 }
 @media only screen and (max-width: 700px) {
-	.slideshow-container {
+	.slideshow-container img {
 		width: 100%;
-		height: 75%;
+		height: 802.5px !important;
 	}
 }
 @media only screen and (max-width: 500px) {
-	.slideshow-container {
+	.slideshow-container img {
 		width: 100%;
-		height: 60%;
+		height: 642px !important;
 	}
 }
 @media only screen and (max-width: 300px) {
-	.slideshow-container {
+	.slideshow-container img {
 		width: 100%;
-		height: 50%;
+		height: 535px !important;
 	}
 }
 .mySlides {
@@ -35,7 +35,6 @@ nav {
 .slideshow-container img {
 	vertical-align: middle;
 	width: 100%;
-	height: auto;
 }
 /* Slideshow container */
 
@@ -231,6 +230,10 @@ td.fa {
 input[type=text] {
 	font-size: 25px !important;
 	color: #90caf9;
+}
+.input-q {
+	color: white !important;
+	font-size: 25px;
 }
 #copyright {
 	align-content: center

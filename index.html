@@ -18,13 +18,13 @@
 	</script><!-- JavaScript/jQuery Function Initialization inside <script> </script>  -->
 
 	<script>
-	       $(document).ready(function() {
-	           $('.sidenav').sidenav();
-	           $('.parallax').parallax();
-	           $('.slider').slider();
-	           $('.collapsible').collapsible();
+	          $(document).ready(function() {
+	              $('.sidenav').sidenav();
+	              $('.parallax').parallax();
+	              $('.slider').slider();
+	              $('.collapsible').collapsible();
 
-	       });
+	          });
 	</script>
 </head>
 <body class="black">
@@ -89,25 +89,25 @@
 		<span class="dot"></span> <span class="dot"></span> <span class="dot"></span> <span class="dot"></span> <span class="dot"></span>
 	</div>
 	<script>
-	           let slideIndex = 0;
-	           showSlides();
-	           
-	           function showSlides() {
-	             let i;
-	             let slides = document.getElementsByClassName("mySlides");
-	             let dots = document.getElementsByClassName("dot");
-	             for (i = 0; i < slides.length; i++) {
-	               slides[i].style.display = "none";  
-	             }
-	             slideIndex++;
-	             if (slideIndex > slides.length) {slideIndex = 1}    
-	             for (i = 0; i < dots.length; i++) {
-	               dots[i].className = dots[i].className.replace(" active", "");
-	             }
-	             slides[slideIndex-1].style.display = "block";  
-	             dots[slideIndex-1].className += " active";
-	             setTimeout(showSlides, 2000); // Change image every 2 seconds
-	           }
+	              let slideIndex = 0;
+	              showSlides();
+	              
+	              function showSlides() {
+	                let i;
+	                let slides = document.getElementsByClassName("mySlides");
+	                let dots = document.getElementsByClassName("dot");
+	                for (i = 0; i < slides.length; i++) {
+	                  slides[i].style.display = "none";  
+	                }
+	                slideIndex++;
+	                if (slideIndex > slides.length) {slideIndex = 1}    
+	                for (i = 0; i < dots.length; i++) {
+	                  dots[i].className = dots[i].className.replace(" active", "");
+	                }
+	                slides[slideIndex-1].style.display = "block";  
+	                dots[slideIndex-1].className += " active";
+	                setTimeout(showSlides, 2000); // Change image every 2 seconds
+	              }
 	</script> <!--Description-->
 	<div class="container">
 		<a href="info.html">
@@ -192,6 +192,13 @@
 				</div>
 			</li>
 			<li>
+				<img src="img/AI_pic_23.jpg">
+				<div class="caption right-align">
+					<h3>Art</h3>
+					<h5 class="white-text">Will AI take over artistic fields?</h5>
+				</div>
+			</li>
+			<li>
 				<img src="img/AI_pic_14.jpg">
 				<div class="caption center-align">
 					<h3>No one knows for sure what AI will bring.</h3>
@@ -201,9 +208,9 @@
 		</ul>
 	</div>
 	<script>
-	               $(document).ready(function () {
-	                   $('.slider').slider({full_width: true});
-	               });
+	                  $(document).ready(function () {
+	                      $('.slider').slider({full_width: true});
+	                  });
 	</script> <!--Footer-->
 	<br>
 	<hr>
